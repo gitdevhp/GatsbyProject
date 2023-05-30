@@ -1,9 +1,13 @@
-#body{
+body, html {
+    background-color: black;
     color: black;
 }
 
-#start{
+#start {
     display: block;
-    font: 300px;
+    font-size: 2em;
     margin-left: 50%;
+    margin-right: 50%;
+    margin-top: 50%;
+    margin-bottom: 50%;
 }

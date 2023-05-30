@@ -6,8 +6,29 @@ body, html {
 #start {
     display: block;
     font-size: 2em;
-    margin-left: 50%;
-    margin-right: 50%;
-    margin-top: 50%;
-    margin-bottom: 50%;
+    text-align: center;
+    align-items: center;
+    margin-top: 40vh;
+}
+p, button {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+    text-shadow: 2px 2px 2px darkslategray;
+}
+
+p {
+    color: seashell;
+    font-size: 0.75em;
+}
+
+button {
+    background-color: black;
+    color: seashell;
+    border: 2px solid seashell;
+    border-radius: 5px;
+    padding: 0.3em;
+    padding-top: 0.1em;
+    padding-bottom: 0.1em;
+    text-transform: uppercase;
+    font-weight: bold;
 }

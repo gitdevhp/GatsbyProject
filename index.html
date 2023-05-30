@@ -12,11 +12,15 @@
 
     <link rel="stylesheet" href="styles.css">
     <script src="script.js"></script>
+    <script src="typewriter.js"></script>
 </head>
     <body>
-        <button id="start" onclick="startGame()">Start</button>
-        <div id="promt">
-            <p id="para">Hello Gatsby</p>
-        </div>
+        <center>
+            <div id="start">
+                <button onclick="startGame()">Start</button>
+                <p id="para" class="type" data-period="2000" data-type='[ "Hello, James." ]'>Hello, James.</p>
+                <span class="wrap"></span>
+            </div>
+        </center>
     </body>
 </html>

@@ -1,0 +1,4 @@
+Typewriter Animation
+    Simon Shahriveri
+    @hi-im-si
+    https://codepen.io/hi-im-si/pen/ALgzqo

@@ -13,9 +13,11 @@ function startGame() {
 function hideAll() {
     document.getElementById("start").style.display='none';
 }
+//HELP ME FIX THIS IDK HOW TO USE
 function scene1() {
     //subject to change
+    document.getElementById("game").style.display="block";
     //add printed text here for intro
-    typeText('["i hope wilson doesnt pull up with a glockn his rari"]',"para");
+    typeText('["i hope wilson doesnt pull up with a glockn his rari"]');
     document.getElementById("nar").style.display="block"; 
 }

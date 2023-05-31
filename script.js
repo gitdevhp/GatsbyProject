@@ -20,13 +20,14 @@ function scene1() {
     //subject to change
     document.getElementById("game").style.display="block";
     //add printed text here for intro
+    document.getElementById("options").style.display='none';
     typeText('["i hope wilson doesnt pull up with a glockn his rari"]');
     document.getElementById("nar").style.display="block"; 
     sceneNumber=2;
 }
 
 function scene2() {
-    //add scenes
+    //add scenes and if statements when option button is pressed
 }
 
 function goNext() {

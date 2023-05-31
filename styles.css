@@ -33,6 +33,7 @@ button {
     text-transform: uppercase;
     font-weight: bold;
 }
+
 /*changes button color when hovering over*/
 button:hover{
   transition: 1 ease-in-out;

@@ -2,6 +2,6 @@
 Made by as our AP Language & Composition Final Project
 
 ## Instructions
-Visit [placeholder] to play. Then, Press the buttons. 
+Visit [placeholder] to play. Then, Press buttons. 
 
 ## Screenshots

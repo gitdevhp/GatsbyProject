@@ -75,3 +75,6 @@ button:hover{
       opacity: 0.0;
     }
   }
+  #next{
+    align-items: center;
+  }

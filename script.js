@@ -4,7 +4,12 @@ document.addEventListener("DOMContentLoaded", function() {
 
 function startGame() {
     document.getElementById("start").style.display='none';
-    document.getElementById('')
     var currentOpacity = window.getComputedStyle(document.getElementById("lamp")).getPropertyValue("opacity");
     document.getElementById("lamp").style.animation = "disappear 2s linear forwards";
+    scene1();
+}
+function scene1() {
+    //subject to change
+    //add printed text here for intro
+    document.getElementById("nar").style.display="block"; 
 }

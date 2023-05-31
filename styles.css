@@ -33,6 +33,13 @@ button {
     text-transform: uppercase;
     font-weight: bold;
 }
+/*changes button color when hovering over*/
+button:hover{
+  transition: .3 ease-in-out;
+  background-color: seashell;
+  color: black;
+  border-radius: 8px;
+}
 
 #para {
     width: 95vw;

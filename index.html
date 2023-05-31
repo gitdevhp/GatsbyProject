@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="index,follow">
     <meta name="rating" content="General">
+
     <title>Gatsby Adventure Game</title>
     <meta name="description" content="Play as Jay Gatsby, making choices and keeping secrets. Your choices shape the story. Follow Gatsby's 1920s tale in this choose-your-own-path game.">
-
+    <link rel="icon" type="image/x-icon" href="/image/favicon.ico">
     <link rel="prerender" href="game.html">
 
     <link rel="stylesheet" href="styles.css">
@@ -16,8 +17,8 @@
 </head>
     <body>
         <center>
+            <img id="lamp" src="image/effect/glint.png" style="position: absolute; top: 15vh; left: 25vw; width: 100px;  opacity: 0.6;">
             <div id="start">
-                <img src="images/effect/glint.png" style="position: absolute; top: 15vh; left: 25vw; width: 100px;  opacity: 0.6;">
                 <p id="subtitle" class="type" data-period="99999999">⠀</p>
                 <button onclick="startGame()">Start</button>
             </div>

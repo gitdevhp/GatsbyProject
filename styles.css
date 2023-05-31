@@ -1,6 +1,7 @@
 body, html {
     background-color: black;
     color: black;
+    overflow: hidden;
 }
 
 #start {
@@ -52,5 +53,17 @@ button {
     }
     100% {
       opacity: 0.5;
+    }
+  }
+
+  @keyframes disappear {
+    0% {
+      opacity: var(--currentOpacity);
+    }
+    50% {
+      opacity: calc(var(--currentOpacity) / 2);
+    }
+    100% {
+      opacity: 0.0;
     }
   }

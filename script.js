@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function() {
     setTimeout(typeText('["Hello, James."]', "subtitle"), 500);
 });
 
-var sceneNumber;
+var sceneNumber=0;
 
 function slugify(slug) {
     var rootURL = window.location.protocol + '//' + window.location.hostname;
@@ -75,16 +75,18 @@ function scene1() {
     typeText('["i hope wilson doesnt pull up with a glockn his rari"]');
     sceneNumber=2;
 }
-
-function scene2() {
-    //add scenes and if statements when option button is pressed
+/*
+ function scene2() {
+     //add scenes and if statements when option button is pressed
 }
 
-function goNext() {
+
+/*function goNext() {
     if(sceneNumber==2) {
         scene2();
     }
 }
+
 
 function switchNarToOp() {
     if(document.getElementById("options").style.display==none) {
@@ -96,3 +98,4 @@ function switchNarToOp() {
         document.getElementById('nar').style.display='block';
     }
 }
+*/

@@ -21,7 +21,7 @@ function scene1() {
     //subject to change
     document.getElementById("game").style.display="block";
     //add printed text here for intro
-    switchNarToOp();
+    document.getElementById("nar")='block';
     typeText('["i hope wilson doesnt pull up with a glockn his rari"]');
     sceneNumber=2;
 }

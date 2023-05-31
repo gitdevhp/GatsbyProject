@@ -56,7 +56,8 @@ button:hover{
 
 #para {
     width: 95vw;
-    height: 60vh;
+    height: 30vh;
+    size: 30px;
 }
 
   
@@ -94,5 +95,5 @@ button:hover{
 
   #next{
     align-items: center;
-    size: 50px;
+    size: 100px;
   }

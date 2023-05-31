@@ -8,6 +8,8 @@ function startGame() {
     document.getElementById("lamp").style.animation = "disappear 2s linear forwards";
     scene1();
 }
+
+//HELP ME FIX THIS IDK HOW TO USE
 function scene1() {
     //subject to change
     document.getElementById("game").style.display="block";

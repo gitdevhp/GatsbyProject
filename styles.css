@@ -64,6 +64,10 @@ button:hover{
     }
   }
 
+  :root {
+    --current-opacity: 0.5;
+  }
+
   @keyframes disappear {
     0% {
       opacity: var(--currentOpacity);
@@ -75,6 +79,8 @@ button:hover{
       opacity: 0.0;
     }
   }
+
   #next{
     align-items: center;
   }
+

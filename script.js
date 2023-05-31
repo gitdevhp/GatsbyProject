@@ -1,12 +1,17 @@
 document.addEventListener("DOMContentLoaded", function() {
-    typeText('["Hello, James."]', "subtitle");
+    setTimeout(typeText('["Hello, James."]', "subtitle"), 500);
 });
 
 function startGame() {
-    document.getElementById("start").style.display='none';
+    hideAll()
     var currentOpacity = window.getComputedStyle(document.getElementById("lamp")).getPropertyValue("opacity");
+    document.documentElement.style.setProperty("--current-opacity", currentOpacity);
     document.getElementById("lamp").style.animation = "disappear 2s linear forwards";
     scene1();
+}
+
+function hideAll() {
+    document.getElementById("start").style.display='none';
 }
 function scene1() {
     //subject to change

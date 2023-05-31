@@ -2,7 +2,3 @@ Typewriter Animation
     Simon Shahriveri
     @hi-im-si
     https://codepen.io/hi-im-si/pen/ALgzqo
-
-Fog gif
-    Apisit Suwannaka on Vecteezy
-    https://www.vecteezy.com/members/drinkmilk-vh

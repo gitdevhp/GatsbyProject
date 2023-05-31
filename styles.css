@@ -35,7 +35,7 @@ button {
 }
 /*changes button color when hovering over*/
 button:hover{
-  transition: .6 ease-in-out;
+  transition: 1 ease-in-out;
   background-color: seashell;
   color: black;
   border-radius: 8px;

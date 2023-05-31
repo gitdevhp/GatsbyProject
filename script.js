@@ -16,6 +16,7 @@ function startGame() {
     var currentOpacity = window.getComputedStyle(document.getElementById("lamp")).getPropertyValue("opacity");
     document.documentElement.style.setProperty("--current-opacity", currentOpacity);
     document.getElementById("lamp").style.animation = "disappear 2s linear forwards";
+    setScene(1);
 }
 
 function hideAll() {
@@ -69,7 +70,7 @@ function scene(num, char1, char2, background, text, option1, option2, option3) {
 //scene setter
 function setScene(scene) {
     if (scene == 1) {
-        scene(scene, char1, char2, background, '[""]');
+        scene(scene, char1, char2, background, '["Tom and Daisy arrive to Gatsby\'s party..."]');
     } else if (scene == 2) {
         scene(scene, char1, char2, background, '[""]');
     } else if (scene == 3) {

@@ -25,7 +25,7 @@ function hideAll() {
 // Generalized Scene function that can be set with parameters to do any scene.
 //num sets
 //char1 char2 sets the character img
-function scene(num, char1, char2, background, text) {
+function scene(num, char1, char2, background, text, option1, option2, option3) {
     // Set Image for Left Character
     document.getElementById("char1").src=char1;
     // If a second character is provided, set that. Else, hide it.
@@ -40,6 +40,21 @@ function scene(num, char1, char2, background, text) {
         document.getElementById("background").src="image/background/default.png";
     } else {
         document.getElementById("background").src=background;
+    }
+    document.getElementById("option1").innerHTML = option1;
+    if (option2 == null || option2 == "null") {
+        document.getElementById("option2").style.display="none";
+    } else {
+        document.getElementById("option2").innerHTML=option2;
+        document.getElementById("option2").style.display="block";
+        console.log("Option 2 enabled, set to " + option2);
+    }
+    if (option3 == null || option3 == "null") {
+        document.getElementById("option3").style.display="none";
+    } else {
+        document.getElementById("option3").innerHTML=option2;
+        document.getElementById("option3").style.display="block";
+        console.log("Option 3 enabled, set to " + option3);
     }
     // Display elements
     document.getElementById("char1").style.display="block";
@@ -75,5 +90,6 @@ function setScene(scene) {
         scene(scene, char1, char2, background, '[""]');
     } else if (scene == 11) {
         scene(scene, char1, char2, background, '[""]');
+
     }
 }

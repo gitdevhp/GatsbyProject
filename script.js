@@ -37,7 +37,7 @@ function goNext() {
 }
 
 function switchNarToOp() {
-    if(document.getElementById("optios").style.display=='none') {
+    if(document.getElementById("optios").style.display==none) {
         document.getElementById("optios").style.display='block';
         document.getElementById('nar').style.display='none';
     }

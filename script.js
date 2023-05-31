@@ -17,11 +17,10 @@ function hideAll() {
 }
 
 function scene1() {
-    document.getElementById("optios").style.display=='none';
+    document.getElementById("options").style.display=='none';
     //subject to change
-    document.getElementById("game").style.display="block";
+    switchNarToOp();
     //add printed text here for intro
-    document.getElementById("nar")='block';
     typeText('["i hope wilson doesnt pull up with a glockn his rari"]');
     sceneNumber=2;
 }
@@ -37,12 +36,12 @@ function goNext() {
 }
 
 function switchNarToOp() {
-    if(document.getElementById("optios").style.display==none) {
-        document.getElementById("optios").style.display='block';
+    if(document.getElementById("options").style.display==none) {
+        document.getElementById("options").style.display='block';
         document.getElementById('nar').style.display='none';
     }
     else {
-        document.getElementById("optios").style.display='none';
-        document.getElementById('nar').style.displat='block';
+        document.getElementById("options").style.display='none';
+        document.getElementById('nar').style.display='block';
     }
 }

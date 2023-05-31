@@ -35,3 +35,14 @@ function goNext() {
         scene2();
     }
 }
+
+function switchNarToOp() {
+    if(document.getElementById("optios").style.display==none) {
+        document.getElementById("optios").style.display='block';
+        document.getElementById('nar').style.display='none';
+    }
+    else {
+        document.getElementById("optios").style.display='none';
+        document.getElementById('nar').style.displat='block';
+    }
+}

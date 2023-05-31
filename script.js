@@ -12,7 +12,7 @@ function slugify(slug) {
 
 function startGame() {
     hideAll()
-    slugify(game=gaming)
+    slugify("game=gaming")
     var currentOpacity = window.getComputedStyle(document.getElementById("lamp")).getPropertyValue("opacity");
     document.documentElement.style.setProperty("--current-opacity", currentOpacity);
     document.getElementById("lamp").style.animation = "disappear 2s linear forwards";

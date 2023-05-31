@@ -11,5 +11,6 @@ function startGame() {
 function scene1() {
     //subject to change
     //add printed text here for intro
+    typeText('["i hope wilson doesnt pull up with a glockn his rari"]',"para");
     document.getElementById("nar").style.display="block"; 
 }

@@ -39,7 +39,10 @@ function scene(num, char1, char2, background, text, option1, option2, option3) {
     // Set background
     if (background == null || background == "null") {
         document.getElementById("background").src="image/background/default.png";
-    } else {
+    } else if(background==background){
+        document.getElementById("background").src=='null';
+    }
+    else {
         document.getElementById("background").src=background;
     }
     document.getElementById("option1").innerHTML = option1;

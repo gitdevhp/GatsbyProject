@@ -20,8 +20,7 @@ function scene1() {
     document.getElementById("options").style.display=='none';
     //subject to change
     //switchNarToOp();
-    document.getElementById("options").style.display='none';
-    document.getElementById('nar').style.display='block';
+    document.getElementById("nar").style.display='block';
     //add printed text here for intro
     typeText('["i hope wilson doesnt pull up with a glockn his rari"]');
     sceneNumber=2;

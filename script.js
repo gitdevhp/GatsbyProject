@@ -17,6 +17,7 @@ function hideAll() {
 }
 
 function scene1() {
+    document.getElementById("optios").style.display=='none';
     //subject to change
     document.getElementById("game").style.display="block";
     //add printed text here for intro

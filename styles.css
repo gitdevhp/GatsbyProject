@@ -32,3 +32,25 @@ button {
     text-transform: uppercase;
     font-weight: bold;
 }
+
+#para {
+    width: 95vw;
+    height: 30vh;
+}
+
+  
+  img {
+    animation: blink 4s ease-in-out infinite;
+  }
+  
+@keyframes blink {
+    0% {
+      opacity: 0.5;
+    }
+    50% {
+      opacity: 0.85;
+    }
+    100% {
+      opacity: 0.5;
+    }
+  }

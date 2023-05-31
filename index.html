@@ -11,17 +11,25 @@
     <link rel="prerender" href="game.html">
 
     <link rel="stylesheet" href="styles.css">
-    <script src="script.js"></script>
     <script src="typewriter.js"></script>
+    <script src="script.js"></script>
 </head>
     <body>
-        <img src="glint.png" style="position: absolute; top: 15vh; left: 25vw; width: 100px;  opacity: 0.85;">
         <center>
             <div id="start">
+                <img src="images/effect/glint.png" style="position: absolute; top: 15vh; left: 25vw; width: 100px;  opacity: 0.6;">
+                <p id="subtitle" class="type" data-period="99999999">⠀</p>
                 <button onclick="startGame()">Start</button>
-                <p id="para" class="type" data-period="2000" data-type='[ "Hello, James." ]'>Hello, James.</p>
-                <span class="wrap"></span>
             </div>
+            <div id="game" style="display: none;">
+                <div id="game-text">
+                    <p id="para" class="type" data-period="99999999" data-type=''><span class="wrap"></span></p>
+                </div>
+                <div id="game-options">
+                    <button onclick="option1()">Option 1</button>
+                    <button onclick="option2()">Option 2</button>
+                    <button onclick="option3()">Option 3</button>
+                </div>
         </center>
     </body>
 </html>

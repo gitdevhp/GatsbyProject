@@ -1,4 +1,5 @@
 var TxtType = function (el, toRotate, period) {
+  console.log("going to TxtType")
   this.toRotate = toRotate;
   this.el = el;
   this.loopNum = 0;
@@ -9,16 +10,17 @@ var TxtType = function (el, toRotate, period) {
 };
 
 TxtType.prototype.tick = function () {
+  console.log('going to prototype.tick')
   var i = this.loopNum % this.toRotate.length;
   var fullTxt = this.toRotate[i];
-
   if (this.isDeleting) {
     this.txt = fullTxt.substring(0, this.txt.length - 1);
   } else {
     this.txt = fullTxt.substring(0, this.txt.length + 1);
+    console.log(this.txt);
+    console.log(this.el);
+    document.getElementById(this.el).innerHTML = this.txt;
   }
-
-  this.el.innerHTML = '<span class="wrap">' + this.txt + "</span>";
 
   var that = this;
   var delta = 200 - Math.random() * 100;
@@ -41,18 +43,17 @@ TxtType.prototype.tick = function () {
   }, delta);
 };
 
-window.onload = function () {
-  var elements = document.getElementsByClassName("type");
-  for (var i = 0; i < elements.length; i++) {
-    var toRotate = elements[i].getAttribute("data-type");
-    var period = elements[i].getAttribute("data-period");
-    if (toRotate) {
-      new TxtType(elements[i], JSON.parse(toRotate), period);
-    }
+function typeText(text, element = "para") {
+  console.log("Element Typing: " + element);
+  var period = document.getElementById(element).getAttribute("data-period");
+  if (text) {
+    new TxtType(element, JSON.parse(text), period);
   }
-  // INJECT CSS
-  var css = document.createElement("style");
-  css.type = "text/css";
-  css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
-  document.body.appendChild(css);
-};
+
+}
+
+  // CURSOR. DISABLED FOR NOW.
+  // var css = document.createElement("style");
+  //css.type = "text/css";
+  // css.innerHTML = ".type > .wrap { border-right: 0.08em solid #fff}";
+  // document.body.appendChild(css);

@@ -23,7 +23,7 @@ TxtType.prototype.tick = function () {
   }
 
   var that = this;
-  var delta = 200 - Math.random() * 100;
+  var delta = 80 - Math.random() * 20;
 
   if (this.isDeleting) {
     delta /= 2;

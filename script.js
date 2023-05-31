@@ -54,21 +54,26 @@ function scene(num, char1, char2, background, text) {
 //scene setter
 function setScene(scene) {
     if (scene == 1) {
-        scene(num, char1, char2, background, text);
+        scene(scene, char1, char2, background, '[""]');
     } else if (scene == 2) {
-        scene(num, char1, char2, background, text);
+        scene(scene, char1, char2, background, '[""]');
     } else if (scene == 3) {
-        scene(num, char1, char2, background, text);
+        scene(scene, char1, char2, background, '[""]');
     } else if (scene == 4) {
-        scene(num, char1, char2, background, text);
+        scene(scene, char1, char2, background, '[""]');
     } else if (scene == 5) {
-        scene(num, char1, char2, background, text);
+        scene(scene, char1, char2, background, '[""]');
     } else if (scene == 6) {
-        scene(num, char1, char2, background, text);
+        scene(scene, char1, char2, background, '[""]');
     } else if (scene == 7) {
+        scene(scene, char1, char2, background, '[""]');
     } else if (scene == 8) {
+        scene(scene, char1, char2, background, '[""]');
     } else if (scene == 9) {
+        scene(scene, char1, char2, background, '[""]');
     } else if (scene == 10) {
+        scene(scene, char1, char2, background, '[""]');
     } else if (scene == 11) {
+        scene(scene, char1, char2, background, '[""]');
     }
 }

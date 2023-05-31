@@ -42,6 +42,18 @@ button:hover{
   border-radius: 8px;
 }
 
+#options {
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+}
+
+.option {
+  width: 30vw;
+  padding: 0.5vw;
+  margin: 0.5vw;
+}
+
 #para {
     width: 95vw;
     height: 30vh;
@@ -83,4 +95,3 @@ button:hover{
   #next{
     align-items: center;
   }
-

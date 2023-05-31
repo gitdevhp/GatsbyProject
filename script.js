@@ -65,37 +65,3 @@ function setScene(scene) {
     } else if (scene == 11) {
     }
 }
-
-function scene1() {
-    document.getElementById("options").style.display=='none';
-    //subject to change
-    //switchNarToOp();
-    document.getElementById("nar").style.display='block';
-    //add printed text here for intro
-    typeText('["i hope wilson doesnt pull up with a glockn his rari"]');
-    sceneNumber=2;
-}
-/*
- function scene2() {
-     //add scenes and if statements when option button is pressed
-}
-
-
-/*function goNext() {
-    if(sceneNumber==2) {
-        scene2();
-    }
-}
-
-
-function switchNarToOp() {
-    if(document.getElementById("options").style.display==none) {
-        document.getElementById("options").style.display='block';
-        document.getElementById('nar').style.display='none';
-    }
-    else {
-        document.getElementById("options").style.display='none';
-        document.getElementById('nar').style.display='block';
-    }
-}
-*/

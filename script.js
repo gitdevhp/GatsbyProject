@@ -23,6 +23,8 @@ function hideAll() {
 }
 
 // Generalized Scene function that can be set with parameters to do any scene.
+//num sets
+//char1 char2 sets the character img
 function scene(num, char1, char2, background, text) {
     // Set Image for Left Character
     document.getElementById("char1").src=char1;
@@ -49,14 +51,20 @@ function scene(num, char1, char2, background, text) {
     return num
 }
 
+//scene setter
 function setScene(scene) {
     if (scene == 1) {
         scene(num, char1, char2, background, text);
     } else if (scene == 2) {
+        scene(num, char1, char2, background, text);
     } else if (scene == 3) {
+        scene(num, char1, char2, background, text);
     } else if (scene == 4) {
+        scene(num, char1, char2, background, text);
     } else if (scene == 5) {
+        scene(num, char1, char2, background, text);
     } else if (scene == 6) {
+        scene(num, char1, char2, background, text);
     } else if (scene == 7) {
     } else if (scene == 8) {
     } else if (scene == 9) {

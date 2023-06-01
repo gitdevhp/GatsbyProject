@@ -9,13 +9,13 @@ var att=1;
 function attChange(aCh) {
     att+=aCh;
     if (att==0) {
-        document.getElementById('lamp').style.opacity=.4;
+        document.getElementById('lamp').style.opacity='.4';
     }
     if (att==1) {
-        document.getElementById('lamp').style.opacity=.6;
+        document.getElementById('lamp').style.opacity='.6';
     }
     if (att==2) {
-        document.getElementById('lamp').style.opacity=.8;
+        document.getElementById('lamp').style.opacity='.8';
     }
 }
 

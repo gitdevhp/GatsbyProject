@@ -3,6 +3,21 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 var sceneNumber=0;
+//att is mood for green light opactity
+var att=1;
+//to change light opacticy
+function attChange(aCh) {
+    att+=aCh;
+    if (att==0) {
+        document.getElementById('lamp').style.opacity=.4;
+    }
+    if (att==1) {
+        document.getElementById('lamp').style.opacity=.6;
+    }
+    if (att==2) {
+        document.getElementById('lamp').style.opacity=.8;
+    }
+}
 
 function slugify(slug) {
     var rootURL = window.location.protocol + '//' + window.location.hostname;

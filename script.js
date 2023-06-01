@@ -54,12 +54,10 @@ function scene(num, char1, char2, background, text, option1, option2, option3) {
     }
     // Set background
     if (background == null || background == "null") {
-        document.getElementById("background").src="image/background/default.png";
-    } else if(background==background||background=='background'){
-        document.getElementById("background").src=='null';
-    }
-    else {
-        document.getElementById("background").src=background;
+        document.body.style.backgroundImage = 'none';
+        document.body.style.backgroundColor = "black";    
+    } else {
+        document.body.style.backgroundImage = `url('image/background/${background}')`;
     }
     document.getElementById("option1").innerHTML = option1;
     if (option2 == null || option2 == "null") {
@@ -89,7 +87,7 @@ function scene(num, char1, char2, background, text, option1, option2, option3) {
 //scene setter
 function setScene(sceneNum) {
     if (sceneNum == 1) {
-        scene(sceneNum, 'gitdevhp/GatsbyProject/image/character/443C61EF-3AE6-415B-8B0A-C2DF6F8CCCF6.jpeg', null, null, '["Tom and Daisy arrive to Gatsby\'s party..."]', 'next', null, null);
+        scene(sceneNum, 'image/character/placeholder.jpeg', null, null, '["Tom and Daisy arrive to Gatsby\'s party..."]', 'next', null, null);
     }
 }
 

@@ -87,20 +87,9 @@ function scene(num, char1, char2, background, text, option1, option2, option3) {
 }
 
 //scene setter
-function setScene(scene) {
-    if (scene == 1) {
-        scene(scene, 'gitdevhp/GatsbyProject/image/character/443C61EF-3AE6-415B-8B0A-C2DF6F8CCCF6.jpeg', null, null, '["Tom and Daisy arrive to Gatsby\'s party..."]', 'next', null, null);
-    } else if (scene == 2) {   
-    } else if (scene == 3) {
-    } else if (scene == 4) {
-    } else if (scene == 5) {
-    } else if (scene == 6) {
-    } else if (scene == 7) {
-    } else if (scene == 8) {
-    } else if (scene == 9) {
-    } else if (scene == 10) {
-    } else if (scene == 11) {
-
+function setScene(sceneNum) {
+    if (sceneNum == 1) {
+        scene(sceneNum, 'gitdevhp/GatsbyProject/image/character/443C61EF-3AE6-415B-8B0A-C2DF6F8CCCF6.jpeg', null, null, '["Tom and Daisy arrive to Gatsby\'s party..."]', 'next', null, null);
     }
 }
 

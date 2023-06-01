@@ -29,6 +29,7 @@ function hideAll() {
 function scene(num, char1, char2, background, text, option1, option2, option3) {
     // Set Image for Left Character
     document.getElementById("char1").src=char1;
+    document.getElementById('char1').style.alignItems='center';
     // If a second character is provided, set that. Else, hide it.
     if (char2 == null || char2 == "null") {
         document.getElementById("char2").style.display="none";

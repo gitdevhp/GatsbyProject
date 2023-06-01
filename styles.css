@@ -98,7 +98,13 @@ button:hover{
     size: 100px;
   }
 
+
+  /*char img location settings (subject to change)*/
   .char{
     margin-bottom: 100px;
     margin-top: 70px;
+  }
+  
+  #char2 {
+    margin-left: 375px;
   }

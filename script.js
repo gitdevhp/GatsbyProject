@@ -90,26 +90,16 @@ function scene(num, char1, char2, background, text, option1, option2, option3) {
 function setScene(scene) {
     if (scene == 1) {
         scene(scene, 'gitdevhp/GatsbyProject/image/character/443C61EF-3AE6-415B-8B0A-C2DF6F8CCCF6.jpeg', null, null, '["Tom and Daisy arrive to Gatsby\'s party..."]', 'next', null, null);
-    } else if (scene == 2) {
-        scene(scene, char1, char2, background, '[""]');
+    } else if (scene == 2) {    11
     } else if (scene == 3) {
-        scene(scene, char1, char2, background, '[""]');
     } else if (scene == 4) {
-        scene(scene, char1, char2, background, '[""]');
     } else if (scene == 5) {
-        scene(scene, char1, char2, background, '[""]');
     } else if (scene == 6) {
-        scene(scene, char1, char2, background, '[""]');
     } else if (scene == 7) {
-        scene(scene, char1, char2, background, '[""]');
     } else if (scene == 8) {
-        scene(scene, char1, char2, background, '[""]');
     } else if (scene == 9) {
-        scene(scene, char1, char2, background, '[""]');
     } else if (scene == 10) {
-        scene(scene, char1, char2, background, '[""]');
     } else if (scene == 11) {
-        scene(scene, char1, char2, background, '[""]');
 
     }
 }

@@ -97,3 +97,8 @@ button:hover{
     align-items: center;
     size: 100px;
   }
+
+  .char{
+    margin-bottom: 100px;
+    margin-top: 70px;
+  }

@@ -89,26 +89,29 @@ function setScene(sceneNum) {
     if (sceneNum == 1) {
         scene(sceneNum, 'image/character/placeholder.jpeg', null, null, '["Tom and Daisy arrive to Gatsby\'s party..."]', 'next', null, null);
     }
+    if (sceneNum == 2) {
+        scene(sceneNum, 'image/character/placeholder.jpeg', 'image/character/placeholder.jpeg', null, '["Daisy: Hello Gatsby :3"]', 'die of cringe', 'poop urself', null);
+    }
 }
 
 //for temp solution to transition scenes
-function option1(opscene) {
-    if (opscene==1) {
+function option1() {
+    if (sceneNumber==1) {
         setScene(2);
     }
-    if (opscene==2) {
+    if (sceneNumber==2) {
         setScene(3);
     }
 }
 
-function option2(opscene){
-    if(opscene==2) {
+function option2(){
+    if(sceneNumber==2) {
         setScene(4);
     }
 }
 
-function option3(opscene) {
-    if(opscene==2){
+function option3() {
+    if(sceneNumber==2){
         setScene(5);
     }
 }

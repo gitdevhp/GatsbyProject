@@ -39,7 +39,7 @@ function scene(num, char1, char2, background, text, option1, option2, option3) {
     // Set background
     if (background == null || background == "null") {
         document.getElementById("background").src="image/background/default.png";
-    } else if(background==background){
+    } else if(background==background||background=='background'){
         document.getElementById("background").src=='null';
     }
     else {
@@ -73,7 +73,7 @@ function scene(num, char1, char2, background, text, option1, option2, option3) {
 //scene setter
 function setScene(scene) {
     if (scene == 1) {
-        scene(scene, char1, char2, background, '["Tom and Daisy arrive to Gatsby\'s party..."]');
+        scene(scene, char1, char2, background, '["Tom and Daisy arrive to Gatsby\'s party..."]',next,null,null);
     } else if (scene == 2) {
         scene(scene, char1, char2, background, '[""]');
     } else if (scene == 3) {

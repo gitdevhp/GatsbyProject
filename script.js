@@ -97,3 +97,25 @@ function setScene(scene) {
 
     }
 }
+
+//for temp solution to transition scenes
+function option1(opscene) {
+    if (opscene==1) {
+        setScene(2);
+    }
+    if (opscene==2) {
+        setScene(3);
+    }
+}
+
+function option2(opscene){
+    if(opscene==2) {
+        setScene(4);
+    }
+}
+
+function option3(opscene) {
+    if(opscene==2){
+        setScene(5);
+    }
+}

@@ -56,8 +56,9 @@ button:hover{
 
 #para {
     width: 95vw;
-    height: 60vh;
+    height: 30vh;
     size: 30px;
+    font-size: 1.5em;
 }
 
   

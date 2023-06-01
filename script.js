@@ -76,7 +76,6 @@ function scene(num, char1, char2, background, text, option1, option2, option3) {
     }
     // Display elements
     document.getElementById("char1").style.display="block";
-    document.getElementById("background").style.display="block";
     typeText(text);
     sceneNumber=num;
     slugify(`game=gaming&step=${num}`);

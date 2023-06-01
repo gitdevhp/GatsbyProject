@@ -31,6 +31,7 @@ function startGame() {
     var currentOpacity = window.getComputedStyle(document.getElementById("lamp")).getPropertyValue("opacity");
     document.documentElement.style.setProperty("--current-opacity", currentOpacity);
     document.getElementById("lamp").style.animation = "disappear 2s linear forwards";
+    document.getElementById('game').style.display = 'block';
     setScene(1);
 }
 

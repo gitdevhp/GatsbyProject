@@ -3,6 +3,7 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 var sceneNumber=0;
+var proceed = false;
 //att is mood for green light opactity
 var att=1;
 //to change light opacticy
@@ -32,6 +33,7 @@ function startGame() {
     document.documentElement.style.setProperty("--current-opacity", currentOpacity);
     document.getElementById("lamp").style.animation = "disappear 2s linear forwards";
     document.getElementById('game').style.display = 'block';
+    document.getElementById('options').style.display = 'inline-block';
     setScene(1);
 }
 
@@ -76,8 +78,10 @@ function scene(num, char1, char2, background, text, option1, option2, option3) {
         console.log("Option 3 enabled, set to " + option3);
     }
     // Display elements
+    proceed=false;
     document.getElementById("char1").style.display="block";
     typeText(text);
+    proceed=true;
     sceneNumber=num;
     slugify(`game=gaming&step=${num}`);
     console.log(`Scene ${num} loaded.`)
@@ -96,6 +100,7 @@ function setScene(sceneNum) {
 
 //for temp solution to transition scenes
 function option1() {
+    if(proceed){
     if (sceneNumber==1) {
         setScene(2);
     }
@@ -103,15 +108,20 @@ function option1() {
         setScene(3);
     }
 }
+}
 
 function option2(){
+    if(proceed){
     if(sceneNumber==2) {
         setScene(4);
     }
 }
+}
 
 function option3() {
+    if(proceed){
     if(sceneNumber==2){
         setScene(5);
     }
+}
 }

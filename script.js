@@ -50,7 +50,7 @@ function scene(num, char1, char2, background, text, speaker, option1, option2, o
     // If a second character is provided, set that. Else, hide it.
     if (char2 == null || char2 == "null") {
         document.getElementById("option2").style.top="105vh"
-        setTimeout(document.getElementById("char2").style.display="none", 350);
+        setTimeout(function() {document.getElementById("char2").style.display="none"}, 350);
     } else {
         document.getElementById("char2").src=char2;
         document.getElementById("char2").style.display="block";
@@ -79,7 +79,7 @@ function scene(num, char1, char2, background, text, speaker, option1, option2, o
         console.log("Option 3 enabled, set to " + option3);
     }
     // Display elements
-    typeText(text, function() {
+    typeText(text, "para", function() {
         proceed = true;
     });
     sceneNumber=num;

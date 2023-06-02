@@ -108,7 +108,7 @@ function setScene(sceneNum) {
         scene(sceneNum, g_hap, g_neu, null, '["Tom and Daisy arrive to Gatsby\'s party..."]', null, 'next', null, null);
     }
     if (sceneNum == 2) {
-        scene(sceneNum, 'image/character/placeholder.jpeg', 'image/character/placeholder.jpeg', null, '["Daisy: Hello Gatsby :3"]', 'run away and die', 'meow', 'italian opening into the Evan\'s gambit');
+        scene(sceneNum, placeholder, g_hap, null, '["Daisy: Hello Gatsby :3"]', 'Daisy', 'run away and die', 'meow', 'italian opening into the Evan\'s gambit');
     }
 }
 

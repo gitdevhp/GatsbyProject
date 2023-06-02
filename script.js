@@ -80,7 +80,8 @@ function scene(num, char1, char2, background, text, speaker, option1, option2, o
         document.getElementById("option3").style.display="block";
         console.log("Option 3 enabled, set to " + option3);
     }
-    if (speaker = null || speaker == "null") {
+    console.log('Speaker set to ' + speaker)
+    if (speaker == null) {
         document.getElementById("speaker").style.display="none";
     } else {
         document.getElementById("speaker").innerHTML = speaker;

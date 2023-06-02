@@ -2,7 +2,6 @@ document.addEventListener("DOMContentLoaded", function() {
     setTimeout(typeText('["Hello, James."]', "subtitle"), 500);
 });
 
-document.getElementById('game').style.display='hidden';
 var sceneNumber=0;
 var proceed = false;
 //att is mood for green light opactity
@@ -116,7 +115,7 @@ function setScene(sceneNum) {
 
 //for temp solution to transition scenes
 function option1() {
-    if(proceed==true){
+    if(proceed){
     if (sceneNumber==1) {
         setScene(2);
     }
@@ -127,7 +126,7 @@ function option1() {
 }
 
 function option2(){
-    if(proceed==true){
+    if(proceed){
     if(sceneNumber==2) {
         setScene(4);
     }
@@ -135,7 +134,7 @@ function option2(){
 }
 
 function option3() {
-    if(proceed==true){
+    if(proceed){
     if(sceneNumber==2){
         setScene(5);
     }

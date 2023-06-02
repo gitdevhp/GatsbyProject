@@ -43,7 +43,7 @@ function hideAll() {
 // Generalized Scene function that can be set with parameters to do any scene.
 //num sets
 //char1 char2 sets the character img
-function scene(num, char1, char2, background, text, speaker, option1, option2, option3) {
+function scene(num, char1, char2, background, text, speaker, option1, option2, option3, fn1, fn2, fn3) {
     proceed=false;
     // Set Image for Left Character
     document.getElementById("char1").src=char1;
@@ -64,18 +64,22 @@ function scene(num, char1, char2, background, text, speaker, option1, option2, o
         document.body.style.backgroundImage = `url('image/background/${background}')`;
     }
     document.getElementById("option1").innerHTML = option1;
+    document.getElementById("option1").onclick = fn1;
+
     console.log('Option 1 set to ' + option1)
     if (option2 == null || option2 == "null") {
         document.getElementById("option2").style.display="none";
     } else {
         document.getElementById("option2").innerHTML=option2;
+        document.getElementById("option2").onclick = fn2;
         document.getElementById("option2").style.display="block";
         console.log("Option 2 enabled, set to " + option2);
     }
     if (option3 == null || option3 == "null") {
         document.getElementById("option3").style.display="none";
     } else {
-        document.getElementById("option3").innerHTML=option2;
+        document.getElementById("option3").innerHTML=option3;
+        document.getElementById("option3").onclick = fn3
         document.getElementById("option3").style.display="block";
         console.log("Option 3 enabled, set to " + option3);
     }
@@ -106,7 +110,7 @@ function setScene(sceneNum) {
     if (sceneNum == 1) {
         scene(sceneNum, g_hap, g_neu, null, 
             '["You catch your breath, having hastened yourself to the door to greet two freshly-arrived guests, Tom and Daisy Buchanan."]',
-            null, 'next', null, null);
+            null, 'next', null, null, function callback() {setScene(2);}, null, null);
     }
     if (sceneNum == 2) {
         scene(sceneNum, placeholder, g_hap, null, '["Daisy: Hello Gatsby :3"]', 'Daisy', 'run away and die', 'meow', 'italian opening into the Evan\'s gambit');

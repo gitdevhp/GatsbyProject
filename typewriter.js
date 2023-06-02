@@ -23,7 +23,7 @@ TxtType.prototype.tick = function () {
   }
 
   var that = this;
-  var delta = 80 - Math.random() * 20;
+  var delta = 50 - Math.random() * 20;
 
   if (this.isDeleting) {
     delta /= 2;
@@ -49,7 +49,7 @@ function typeText(text, element = "para") {
   if (text) {
     new TxtType(element, JSON.parse(text), period);
   }
-
+  return true;
 }
 
   // CURSOR. DISABLED FOR NOW.

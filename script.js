@@ -64,6 +64,7 @@ function scene(num, char1, char2, background, text, speaker, option1, option2, o
         document.body.style.backgroundImage = `url('image/background/${background}')`;
     }
     document.getElementById("option1").innerHTML = option1;
+    console.log('Option 1 set to ' + option1)
     if (option2 == null || option2 == "null") {
         document.getElementById("option2").style.display="none";
     } else {

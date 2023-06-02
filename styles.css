@@ -56,6 +56,7 @@ button:hover{
 }
 
 #para {
+  padding: 2px;
   position: absolute;
   margin-left: auto;
   margin-right: auto;

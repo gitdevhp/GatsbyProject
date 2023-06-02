@@ -102,12 +102,26 @@ button:hover{
 
 
   /*char img location settings (subject to change)*/
-  .char{
-    margin-bottom: 900px;
-    margin-top: 25px;
-    height: 50vh;
+  #chars {
+    width: 100vw;
+    position: absolute;
+    top: 15vh;
   }
-  
-  #char2 {
-    margin-left: 375px;
-  }
+
+#char1 {
+  position: absolute;
+  height: 45vh;
+  transform: rotate(356deg);
+  -webkit-transform: rotate(356deg);
+  left: 5vw;
+}
+
+#char2 {
+  position: absolute;
+  height: 45vh;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  transform: rotate(358deg);
+  -webkit-transform: rotate(358deg);
+  right: 5vw;
+}

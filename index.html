@@ -9,7 +9,6 @@
     <title>Gatsby Adventure Game</title>
     <meta name="description" content="Play as Jay Gatsby, making choices and keeping secrets. Your choices shape the story. Follow Gatsby's 1920s tale in this choose-your-own-path game.">
     <link rel="icon" type="image/x-icon" href="/image/favicon.ico">
-    <link rel="prerender" href="game.html">
 
     <script src="jquery.min.jsm.js"></script>
     <link rel="stylesheet" href="styles.css">
@@ -24,10 +23,13 @@
                 <p id="subtitle" class="type" data-period="99999999">⠀</p>
                 <button onclick="startGame()">Start</button>
             </div>
-            <div id="game" style="display: none;">
+            <div id="game" >
                 <div id="game-text">
                     <p id="para" class="type" data-period="99999999" data-type=''><span class="wrap"></span></p>
-                    <img class='char' id="char1"> <img class='char' id="char2">
+                    <div id="chars">
+                        <img class='char' id="char1" src="image/character/gatsby_happy.png">
+                        <img class='char' id="char2" src="image/character/gatsby_sad.png">
+                    </div>
                 </div>
                 <div id=select>
                 <center id="options">

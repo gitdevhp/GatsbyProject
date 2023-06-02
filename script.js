@@ -43,7 +43,7 @@ function hideAll() {
 // Generalized Scene function that can be set with parameters to do any scene.
 //num sets
 //char1 char2 sets the character img
-function scene(num, char1, char2, background, text, speaker, option1, option2, option3, fn1, fn2, fn3) {
+function scene(num, char1, char2, background, text, speaker, option1, option2, option3) {
     proceed=false;
     // Set Image for Left Character
     document.getElementById("char1").src=char1;
@@ -64,14 +64,12 @@ function scene(num, char1, char2, background, text, speaker, option1, option2, o
         document.body.style.backgroundImage = `url('image/background/${background}')`;
     }
     document.getElementById("option1").innerHTML = option1;
-    document.getElementById("option1").onclick = fn1;
 
     console.log('Option 1 set to ' + option1)
     if (option2 == null || option2 == "null") {
         document.getElementById("option2").style.display="none";
     } else {
         document.getElementById("option2").innerHTML=option2;
-        document.getElementById("option2").onclick = fn2;
         document.getElementById("option2").style.display="block";
         console.log("Option 2 enabled, set to " + option2);
     }
@@ -79,7 +77,6 @@ function scene(num, char1, char2, background, text, speaker, option1, option2, o
         document.getElementById("option3").style.display="none";
     } else {
         document.getElementById("option3").innerHTML=option3;
-        document.getElementById("option3").onclick = fn3
         document.getElementById("option3").style.display="block";
         console.log("Option 3 enabled, set to " + option3);
     }
@@ -95,7 +92,6 @@ function scene(num, char1, char2, background, text, speaker, option1, option2, o
     slugify(`game=gaming&step=${num}`);
     console.log(`Scene ${num} loaded.`)
     console.log(proceed);
-    return num
 }
 
 var placeholder = 'image/character/placeholder.jpeg'

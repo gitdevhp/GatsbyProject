@@ -109,13 +109,11 @@ var g_sad = 'image/character/gatsby_sad.png'
 //scene setter
 function setScene(sceneNum) {
     if (sceneNum == 1) {
-        scene(sceneNum, g_hap, g_neu, null, 
-            '["You catch your breath, having hastened yourself to the door to greet two freshly-arrived guests, Tom and Daisy Buchanan."]',
-            null, 'next', null, null, function callback() {setScene(2);}, null, null);
-    }
+        scene(sceneNum, g_hap, g_neu, null, '["You catch your breath, having hastened yourself to the door to greet two freshly-arrived guests, Tom and Daisy Buchanan."]', null, 'next', null, null, function() { setScene(2) }, null, null);
     if (sceneNum == 2) {
         scene(sceneNum, placeholder, g_hap, null, '["Daisy: Hello Gatsby :3"]', 'Daisy', 'run away and die', 'meow', 'italian opening into the Evan\'s gambit');
     }
+}
 }
 
 //for temp solution to transition scenes

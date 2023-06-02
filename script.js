@@ -106,7 +106,6 @@ var g_sad = 'image/character/gatsby_sad.png'
 
 //scene setter
 function setScene(sceneNum) {
-    if (sceneNum == 1) { proceed = true }
     if (proceed == true) {
     if (sceneNum == 1) {
         scene(sceneNum, g_hap, g_neu, null, 

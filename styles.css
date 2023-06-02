@@ -162,6 +162,10 @@ button:hover{
   transition: all .3s ease-out;
 }
 
+audio {
+  display:none;
+}
+
 label {
   font-family: 'Courier New', Courier, monospace;
   font-size: 1em;

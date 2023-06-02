@@ -4,7 +4,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
 var sceneNumber=0;
 var proceed = false;
-const audio = document.querySelector("audio");
 audio.play();
 //att is mood for green light opactity
 var att=1;

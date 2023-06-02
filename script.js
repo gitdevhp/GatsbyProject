@@ -105,7 +105,9 @@ var g_sad = 'image/character/gatsby_sad.png'
 //scene setter
 function setScene(sceneNum) {
     if (sceneNum == 1) {
-        scene(sceneNum, g_hap, g_neu, null, '["Tom and Daisy arrive to Gatsby\'s party..."]', null, 'next', null, null);
+        scene(sceneNum, g_hap, g_neu, null, 
+            '["You catch your breath, having hastened yourself to the door to greet two freshly-arrived guests, Tom and Daisy Buchanan."]',
+            null, 'next', null, null);
     }
     if (sceneNum == 2) {
         scene(sceneNum, placeholder, g_hap, null, '["Daisy: Hello Gatsby :3"]', 'Daisy', 'run away and die', 'meow', 'italian opening into the Evan\'s gambit');

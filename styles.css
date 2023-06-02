@@ -170,3 +170,7 @@ label {
   font-family: 'Courier New', Courier, monospace;
   font-size: 1em;
 }
+
+body {
+  transition: all .5s ease-in-out;
+}

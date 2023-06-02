@@ -96,6 +96,7 @@ function scene(num, char1, char2, background, text, speaker, option1, option2, o
     sceneNumber=num;
     slugify(`game=gaming&step=${num}`);
     console.log(`Scene ${num} loaded.`)
+    console.log(proceed);
     return num
 }
 

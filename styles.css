@@ -4,6 +4,10 @@ body, html {
     overflow: hidden;
 }
 
+#game {
+  display: hidden;
+}
+
 #start {
     display: block;
     font-size: 2em;

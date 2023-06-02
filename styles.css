@@ -161,3 +161,8 @@ button:hover{
   right: 8vw;
   transition: all .3s ease-out;
 }
+
+label {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1em;
+}

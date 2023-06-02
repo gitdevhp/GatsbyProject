@@ -31,7 +31,7 @@ function startGame() {
     slugify("game=gaming")
     var currentOpacity = window.getComputedStyle(document.getElementById("lamp")).getPropertyValue("opacity");
     document.documentElement.style.setProperty("--current-opacity", currentOpacity);
-    document.getElementById("lamp").style.animation = "disappear 2s linear forwards";
+    document.getElementById("lamp").style.opacity = "0";
     document.getElementById('game').style.display = 'block';
     setScene(1);
 }
@@ -43,16 +43,18 @@ function hideAll() {
 // Generalized Scene function that can be set with parameters to do any scene.
 //num sets
 //char1 char2 sets the character img
-function scene(num, char1, char2, background, text, option1, option2, option3) {
+function scene(num, char1, char2, background, text, speaker, option1, option2, option3) {
+    proceed=false;
     // Set Image for Left Character
     document.getElementById("char1").src=char1;
-    document.getElementById('char1').style.alignItems='center';
     // If a second character is provided, set that. Else, hide it.
     if (char2 == null || char2 == "null") {
-        document.getElementById("char2").style.display="none";
+        document.getElementById("option2").style.top="105vh"
+        setTimeout(document.getElementById("char2").style.display="none", 350);
     } else {
         document.getElementById("char2").src=char2;
         document.getElementById("char2").style.display="block";
+        document.getElementById("option2").style.top="15vh"
     }
     // Set background
     if (background == null || background == "null") {
@@ -77,10 +79,9 @@ function scene(num, char1, char2, background, text, option1, option2, option3) {
         console.log("Option 3 enabled, set to " + option3);
     }
     // Display elements
-    proceed=false;
-    document.getElementById("char1").style.display="block";
-    typeText(text);
-    proceed=true;
+    typeText(text, function() {
+        proceed = true;
+    });
     sceneNumber=num;
     slugify(`game=gaming&step=${num}`);
     console.log(`Scene ${num} loaded.`)
@@ -93,7 +94,7 @@ function setScene(sceneNum) {
         scene(sceneNum, 'image/character/placeholder.jpeg', null, null, '["Tom and Daisy arrive to Gatsby\'s party..."]', 'next', null, null);
     }
     if (sceneNum == 2) {
-        scene(sceneNum, 'image/character/placeholder.jpeg', 'image/character/placeholder.jpeg', null, '["Daisy: Hello Gatsby :3"]', 'die of cringe', 'poop urself', null);
+        scene(sceneNum, 'image/character/placeholder.jpeg', 'image/character/placeholder.jpeg', null, '["Daisy: Hello Gatsby :3"]', 'run away and die', 'meow', 'italian opening into the Evan\'s gambit');
     }
 }
 

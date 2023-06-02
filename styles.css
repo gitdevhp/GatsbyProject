@@ -49,23 +49,34 @@ button:hover{
 }
 
 .option {
-  width: 30vw;
+  width: 31.3vw;
   padding: 0.5vw;
   margin: 0.5vw;
   display: hidden;
 }
 
 #para {
-    width: 95vw;
-    height: 30vh;
-    size: 30px;
-    font-size: 1.5em;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  top: 58vh;
+  width: 95vw;
+  height: 30vh;
+  size: 30px;
+  font-size: 1.5em;
+  background-color: black;
+  color: seashell;
+  border-radius: 5px;
+  border: 2px solid seashell;
+  z-index: 5;
 }
 
   
-  img {
-    animation: blink 4s ease-in-out infinite;
-  }
+#lamp {
+  animation: blink 4s ease-in-out infinite;
+}
   
 @keyframes blink {
     0% {
@@ -105,23 +116,27 @@ button:hover{
   #chars {
     width: 100vw;
     position: absolute;
-    top: 15vh;
+    top: 0;
   }
 
 #char1 {
   position: absolute;
+  top: 18vh;
   height: 45vh;
-  transform: rotate(356deg);
-  -webkit-transform: rotate(356deg);
+  transform: rotate(2deg);
+  -webkit-transform: rotate(2deg);
   left: 5vw;
+  transition: all .3s ease-in-out;
 }
 
 #char2 {
   position: absolute;
+  top: 18vh;
   height: 45vh;
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
-  transform: rotate(358deg);
-  -webkit-transform: rotate(358deg);
+  transform: rotate(356deg);
+  -webkit-transform: rotate(356deg);
   right: 5vw;
+  transition: all .3s ease-out;
 }

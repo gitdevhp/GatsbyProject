@@ -117,7 +117,7 @@ function setScene(sceneNum) {
 
 //for temp solution to transition scenes
 function option1() {
-    if(proceed){
+    if(proceed==true){
     if (sceneNumber==1) {
         setScene(2);
     }
@@ -128,7 +128,7 @@ function option1() {
 }
 
 function option2(){
-    if(proceed){
+    if(proceed==true){
     if(sceneNumber==2) {
         setScene(4);
     }
@@ -136,7 +136,7 @@ function option2(){
 }
 
 function option3() {
-    if(proceed){
+    if(proceed==true){
     if(sceneNumber==2){
         setScene(5);
     }

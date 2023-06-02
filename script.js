@@ -33,7 +33,6 @@ function startGame() {
     document.documentElement.style.setProperty("--current-opacity", currentOpacity);
     document.getElementById("lamp").style.animation = "disappear 2s linear forwards";
     document.getElementById('game').style.display = 'block';
-    document.getElementById('options').style.display = 'inline-block';
     setScene(1);
 }
 

@@ -76,6 +76,7 @@ button:hover{
   border-radius: 5px;
   border: 2px solid seashell;
   z-index: 5;
+  text-align: left;
 }
 
 #speaker {

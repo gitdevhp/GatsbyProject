@@ -2,6 +2,7 @@ document.addEventListener("DOMContentLoaded", function() {
     setTimeout(typeText('["Hello, James."]', "subtitle"), 500);
 });
 
+document.getElementById('game').style.display='hidden';
 var sceneNumber=0;
 var proceed = false;
 //att is mood for green light opactity

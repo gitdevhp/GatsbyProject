@@ -79,7 +79,12 @@ function scene(num, char1, char2, background, text, speaker, option1, option2, o
         document.getElementById("option3").style.display="block";
         console.log("Option 3 enabled, set to " + option3);
     }
-    // Display elements
+    if (speaker = null || speaker == "null") {
+        document.getElementById("speaker").style.display="none";
+    } else {
+        document.getElementById("speaker").innerHTML = speaker;
+        document.getElementById("speaker").style.display="block";
+    }
     typeText(text, "para", function() {
         proceed = true;
     });
@@ -89,10 +94,16 @@ function scene(num, char1, char2, background, text, speaker, option1, option2, o
     return num
 }
 
+var placeholder = 'image/character/placeholder.jpeg'
+var g_hap = 'image/character/gatsby_happy.png'
+var g_neu = 'image/character/gatsby_neutral.png'
+var g_sad = 'image/character/gatsby_sad.png'
+
+
 //scene setter
 function setScene(sceneNum) {
     if (sceneNum == 1) {
-        scene(sceneNum, 'image/character/placeholder.jpeg', null, null, '["Tom and Daisy arrive to Gatsby\'s party..."]', 'next', null, null);
+        scene(sceneNum, g_hap, g_neu, null, '["Tom and Daisy arrive to Gatsby\'s party..."]', null, 'next', null, null);
     }
     if (sceneNum == 2) {
         scene(sceneNum, 'image/character/placeholder.jpeg', 'image/character/placeholder.jpeg', null, '["Daisy: Hello Gatsby :3"]', 'run away and die', 'meow', 'italian opening into the Evan\'s gambit');

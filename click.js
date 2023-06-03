@@ -3,9 +3,9 @@ let kb1 = new Audio('sound/fx/kb_1.mp3');
 let kb2 = new Audio('sound/fx/kb_2.mp3');
 let kb3 = new Audio('sound/fx/kb_3.mp3');
 let kb4 = new Audio('sound/fx/kb_4.mp3');
-let kb5 = new Audio('sound/fx/kb_5.mp3');
-let kb6 = new Audio('sound/fx/kb_6.mp3');
-let kb7 = new Audio('sound/fx/kb_7.mp3');
+for (i = 0; i < 5; i++) {
+    eval('kb' + i.volume = 0.4);
+}
 
 function randomInteger(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;

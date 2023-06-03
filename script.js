@@ -29,7 +29,7 @@ function slugify(slug) {
 function startGame() {
     hideAll()
     slugify("game=gaming")
-    document.getElementById("lamp").style.top = "10";
+    document.getElementById("lamp").style.top = "-10vh";
     document.getElementById('game').style.display = 'block';
     setScene(1);
 }

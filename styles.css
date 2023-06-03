@@ -98,6 +98,7 @@ button:hover{
   
 #lamp {
   animation: blink 4s ease-in-out infinite;
+  transition: all 1s ease-in-out;
 }
   
 @keyframes blink {

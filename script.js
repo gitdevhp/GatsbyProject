@@ -29,9 +29,7 @@ function slugify(slug) {
 function startGame() {
     hideAll()
     slugify("game=gaming")
-    var currentOpacity = window.getComputedStyle(document.getElementById("lamp")).getPropertyValue("opacity");
-    document.documentElement.style.setProperty("--current-opacity", currentOpacity);
-    document.getElementById("lamp").style.opacity = "0";
+    document.getElementById("lamp").style.top = "10";
     document.getElementById('game').style.display = 'block';
     setScene(1);
 }

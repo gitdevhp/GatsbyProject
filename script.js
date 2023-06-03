@@ -94,25 +94,6 @@ function scene(num, char1, char2, background, text, speaker, option1, option2, o
     console.log(proceed);
 }
 
-var placeholder = 'image/character/placeholder.jpeg'
-var g_hap = 'image/character/gatsby_happy.png'
-var g_neu = 'image/character/gatsby_neutral.png'
-var g_sad = 'image/character/gatsby_sad.png'
-
-
-//scene setter
-function setScene(sceneNum) {
-    console.log('At Setscene; sceneNum = ' + sceneNum)
-    if (sceneNum == 1) {
-        scene(sceneNum, g_hap, g_neu, 'hall.png', 
-        '["You catch your breath, having hastened yourself to the door to greet two freshly-arrived guests, Tom and Daisy Buchanan."]', null, 'next', null, null,);
-    } else if (sceneNum == 2) {
-        console.log('Got to if scene num = 2 statement in setSceneFunction')
-        scene(sceneNum, g_hap, g_neu, 'hall.png', 
-        '["THING!!"]', 'Daisy', 'next', null, null);
-    }
-}
-
 //for temp solution to transition scenes
 function option1() {
     console.log('Option 1 button code executing yum yum yum')

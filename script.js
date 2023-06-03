@@ -50,7 +50,7 @@ function scene(num, char1, char2, background, text, speaker, option1, option2, o
         document.getElementById("char1").style.left="-50vw"
         setTimeout(function() {document.getElementById("char1").style.display="none"}, 350);
     } else {
-        if ( document.getElementById("char1").src != char1) {
+        if ( document.getElementById("char1").src != (window.location.protocol + '//' + window.location.hostname + '/' + char2)) {
             document.getElementById("char1").style.left="-50vw"
             setTimeout(function() {
                 document.getElementById("char1").style.display="block"
@@ -67,13 +67,13 @@ function scene(num, char1, char2, background, text, speaker, option1, option2, o
         document.getElementById("char2").style.right="-50vw"
         setTimeout(function() {document.getElementById("char2").style.display="none"}, 350);
     } else {
-        if ( document.getElementById("char2").src != char2) {
+        if ( document.getElementById("char2").src != (window.location.protocol + '//' + window.location.hostname + '/' + char2)) {
             document.getElementById("char2").style.right="-50vw"
             setTimeout(function() {
                 document.getElementById("char2").style.display="block"
                 document.getElementById("char2").src=char2;
                 document.getElementById("char2").style.right="8vw"
-            }, 305);
+            }, 405);
         } else {
             document.getElementById("char2").style.display="block"
             document.getElementById("char2").src=char2;

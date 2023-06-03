@@ -106,12 +106,12 @@ function setScene(sceneNum) {
     if (sceneNum == 1) {
         scene(sceneNum, g_hap, g_neu, 'hall.png', 
         '["You catch your breath, having hastened yourself to the door to greet two freshly-arrived guests, Tom and Daisy Buchanan."]', null, 'next', null, null,);
-    if (sceneNum == 2) {
+    } else if (sceneNum == 2) {
         console.log('Got to if scene num = 2 statement in setSceneFunction')
         scene(sceneNum, g_hap, g_neu, 'hall.png', 
         '["THING!!"]', 'Daisy', 'next', null, null);
     }
-}}
+}
 
 //for temp solution to transition scenes
 function option1() {

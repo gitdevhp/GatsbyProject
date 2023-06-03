@@ -10,7 +10,9 @@ var TxtType = function (el, toRotate, period) {
 };
 
 TxtType.prototype.tick = function () {
-  console.log('going to prototype.tick')
+  // play sound
+  click();
+  
   var i = this.loopNum % this.toRotate.length;
   var fullTxt = this.toRotate[i];
   if (this.isDeleting) {
@@ -51,6 +53,8 @@ function typeText(text, element = "para") {
   }
   return true;
 }
+
+
 
   // CURSOR. DISABLED FOR NOW.
   // var css = document.createElement("style");

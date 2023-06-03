@@ -105,7 +105,7 @@ function scene(num, char1, char2, background, text, speaker, option1, option2, o
     if (speaker == null) {
         document.getElementById("speaker").style.display="none";
     } else {
-        document.getElementById("speaker").innerHTML = speaker;
+        document.getElementById("speaker").innerHTML = ('<b>' + speaker.toUpperCase() + '</b>');
         document.getElementById("speaker").style.display="block";
     }
     proceed = typeText(text, "para");

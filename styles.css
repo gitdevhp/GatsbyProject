@@ -146,7 +146,7 @@ button:hover{
   height: 45vh;
   transform: rotate(2deg);
   -webkit-transform: rotate(2deg);
-  left: 7vw;
+  left: -50vw;
   transition: all .3s ease-in-out;
 }
 
@@ -158,7 +158,7 @@ button:hover{
   transform: scaleX(-1);
   transform: rotate(356deg);
   -webkit-transform: rotate(356deg);
-  right: 8vw;
+  right: -50vw;
   transition: all .3s ease-out;
 }
 

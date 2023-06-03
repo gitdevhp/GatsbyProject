@@ -1,9 +1,7 @@
-credit: levtus, gitdevhp, and henry
-
 # A Great Gatsby Choose-Your-Own-Adventure Game
-Made by as our AP Language & Composition Final Project
+Made as an AP Language & Composition Final Project
 
 ## Instructions
-Visit [placeholder] to play. Then, Press buttons. 
+Visit [https://gatsby-project-nine.vercel.app/](https://gatsby-project-nine.vercel.app/) to play. 
 
 ## Screenshots

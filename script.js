@@ -46,15 +46,38 @@ function hideAll() {
 function scene(num, char1, char2, background, text, speaker, option1, option2, option3) {
     proceed=false;
     // Set Image for Left Character
-    document.getElementById("char1").src=char1;
+    if (char1 == null || char1 == "null") {
+        document.getElementById("char1").style.left="-50vw"
+        setTimeout(function() {document.getElementById("char1").style.display="none"}, 350);
+    } else {
+        if ( document.getElementById("char1").src != char1) {
+            document.getElementById("char1").style.left="-50vw"
+            setTimeout(function() {
+                document.getElementById("char1").style.display="block"
+                document.getElementById("char1").src=char1;
+                document.getElementById("char1").style.left="7vw"
+            }, 305);
+        } else {
+            document.getElementById("char1").style.display="block"
+            document.getElementById("char1").src=char1;
+        }
+    }
     // If a second character is provided, set that. Else, hide it.
     if (char2 == null || char2 == "null") {
-        document.getElementById("option2").style.top="105vh"
+        document.getElementById("char2").style.right="-50vw"
         setTimeout(function() {document.getElementById("char2").style.display="none"}, 350);
     } else {
-        document.getElementById("char2").src=char2;
-        document.getElementById("char2").style.display="block";
-        document.getElementById("option2").style.top="15vh"
+        if ( document.getElementById("char2").src != char2) {
+            document.getElementById("char2").style.right="-50vw"
+            setTimeout(function() {
+                document.getElementById("char2").style.display="block"
+                document.getElementById("char2").src=char2;
+                document.getElementById("char2").style.right="8vw"
+            }, 305);
+        } else {
+            document.getElementById("char2").style.display="block"
+            document.getElementById("char2").src=char2;
+        }
     }
     // Set background
     if (background == null || background == "null") {

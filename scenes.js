@@ -4,7 +4,7 @@ var gat_n = 'image/character/gatsby_neutral.png'
 var gat_s = 'image/character/gatsby_sad.png'
 var tom_n = 'image/character/tom_neutral.png'
 
-var hall = 'image/background/hall.png'
+var hall = 'hall.png'
 
 
 //scene setter

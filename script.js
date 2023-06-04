@@ -38,7 +38,7 @@ function hideAll() {
     document.getElementById("start").style.display='none';
 }
 function disableButtons(state) {
-    let colorStyle = 'seashell'
+    let colorStyle = 'lightgray'
     let options = document.querySelectorAll('.option');
 
     if (state == true) {

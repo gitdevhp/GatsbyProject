@@ -109,15 +109,17 @@ function scene(num, char1, char2, background, text, speaker, option1, option2, o
         document.getElementById("speaker").innerHTML = ('<b>' + speaker.toUpperCase() + '</b>');
         document.getElementById("speaker").style.display="block";
     }
-    proceed = typeText(text, "para");
+    typeText(text, "para", function() {
+        proceed = true;
+    });    
     sceneNumber=num;
     slugify(`game=gaming&step=${num}`);
     console.log(`Scene ${num} loaded.`)
-    console.log(proceed);
 }
 
 //for temp solution to transition scenes
 function option1() {
+    console.log('Proceed Value: ' + proceed);
     console.log('Option 1 button code executing yum yum yum')
     if (proceed == true) {
         if (sceneNumber==1) {

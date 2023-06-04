@@ -47,6 +47,7 @@ function disableButtons(state) {
         colorStyle = 'seashell'
     }
     for (let i = 0; i < options.length; i++) {
+        console.log('Coloring Buttons ' + colorStyle)
         options[i].style.color = colorStyle;
         options[i].style.borderColor = colorStyle;
     }

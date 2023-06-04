@@ -39,18 +39,18 @@ function hideAll() {
 }
 function disableButtons(state) {
     let colorStyle = 'lightgray'
-    let options = document.querySelectorAll('.option');
-
     if (state == true) {
         colorStyle = 'lightgray'
     } else {
         colorStyle = 'seashell'
     }
-    for (let i = 0; i < options.length; i++) {
-        console.log('Coloring Buttons ' + colorStyle)
-        options[i].style.color = colorStyle;
-        options[i].style.borderColor = colorStyle;
-    }
+    console.log('Coloring Buttons ' + colorStyle)
+    document.getElementById('option1').style.color = colorStyle;
+    document.getElementById('option1').style.borderColor = colorStyle;
+    document.getElementById('option2').style.color = colorStyle;
+    document.getElementById('option2').style.borderColor = colorStyle;
+    document.getElementById('option3').style.color = colorStyle;
+    document.getElementById('option3').style.borderColor = colorStyle;
 }
 
 // Generalized Scene function that can be set with parameters to do any scene.

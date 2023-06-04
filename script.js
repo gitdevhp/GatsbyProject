@@ -109,9 +109,7 @@ function scene(num, char1, char2, background, text, speaker, option1, option2, o
         document.getElementById("speaker").innerHTML = ('<b>' + speaker.toUpperCase() + '</b>');
         document.getElementById("speaker").style.display="block";
     }
-    typeText(text, "para", function() {
-        proceed = true;
-    });    
+    typeText(text, "para");
     sceneNumber=num;
     slugify(`game=gaming&step=${num}`);
     console.log(`Scene ${num} loaded.`)

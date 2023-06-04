@@ -21,7 +21,10 @@ TxtType.prototype.tick = function () {
     this.txt = fullTxt.substring(0, this.txt.length + 1);
     document.getElementById(this.el).innerHTML = this.txt;
   }
-
+  if (fullTxt.length == this.txt.length) {
+    console.log('Setting proceed to true, since the text is deemed to have been fully typed.')
+    proceed = true;
+  }
   var that = this;
   var delta = 50 - Math.random() * 20;
 

@@ -19,8 +19,6 @@ TxtType.prototype.tick = function () {
     this.txt = fullTxt.substring(0, this.txt.length - 1);
   } else {
     this.txt = fullTxt.substring(0, this.txt.length + 1);
-    console.log(this.txt);
-    console.log(this.el);
     document.getElementById(this.el).innerHTML = this.txt;
   }
 

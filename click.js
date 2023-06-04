@@ -18,5 +18,4 @@ function randomInteger(min, max) {
 function click() {
     let num = randomInteger(0, 4);
     eval('kb' + num).play();
-    console.log('Trying to play kb' + num + 'sound effect.');
   }

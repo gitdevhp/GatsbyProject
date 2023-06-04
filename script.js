@@ -42,7 +42,8 @@ function hideAll() {
 //num sets
 //char1 char2 sets the character img
 function scene(num, char1, char2, background, text, speaker, option1, option2, option3) {
-    proceed=false;
+    proceed = false;
+    console.log('Proceed variable set to false.')
     // Set Image for Left Character
     if (char1 == null || char1 == "null") {
         document.getElementById("char1").style.left="-50vw"
@@ -118,14 +119,16 @@ function scene(num, char1, char2, background, text, speaker, option1, option2, o
 //for temp solution to transition scenes
 function option1() {
     console.log('Option 1 button code executing yum yum yum')
-    if (proceed==true){
-    if (sceneNumber==1) {
-        console.log('Setting scene to 2')
-        setScene(2);
-    }
-    if (sceneNumber==2) {
+    if (proceed == true) {
+        if (sceneNumber==1) {
+            console.log('Setting scene to 2')
+            setScene(2);
+        }
+        if (sceneNumber==2) {
         setScene(3);
-    }
+        }
+} else {
+    console.error('Option 1 button pressed when proceed == false')
 }
 }
 

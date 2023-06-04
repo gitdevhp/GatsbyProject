@@ -24,6 +24,7 @@ TxtType.prototype.tick = function () {
   if (fullTxt.length == this.txt.length) {
     console.log('Setting proceed to true, since the text is deemed to have been fully typed.')
     proceed = true;
+    disableButtons(false);
   }
   var that = this;
   var delta = 50 - Math.random() * 20;

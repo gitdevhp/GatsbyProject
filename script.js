@@ -37,12 +37,27 @@ function startGame() {
 function hideAll() {
     document.getElementById("start").style.display='none';
 }
+function disableButtons(state) {
+    let colorStyle = 'seashell'
+    let options = document.querySelectorAll('.option');
+
+    if (state == true) {
+        colorStyle = 'lightgray'
+    } else {
+        colorStyle = 'seashell'
+    }
+    for (let i = 0; i < options.length; i++) {
+        options[i].style.color = colorStyle;
+        options[i].style.borderColor = colorStyle;
+    }
+}
 
 // Generalized Scene function that can be set with parameters to do any scene.
 //num sets
 //char1 char2 sets the character img
 function scene(num, char1, char2, background, text, speaker, option1, option2, option3) {
     proceed = false;
+    disableButtons(true);
     console.log('Proceed variable set to false.')
     // Set Image for Left Character
     if (char1 == null || char1 == "null") {
@@ -118,7 +133,6 @@ function scene(num, char1, char2, background, text, speaker, option1, option2, o
 //for temp solution to transition scenes
 function option1() {
     console.log('Proceed Value: ' + proceed);
-    console.log('Option 1 button code executing yum yum yum')
     if (proceed == true) {
         if (sceneNumber==1) {
             console.log('Setting scene to 2')

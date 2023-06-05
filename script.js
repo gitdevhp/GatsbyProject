@@ -148,6 +148,24 @@ function option1() {
         else if (sceneNumber==4) {
             setScene(5);
         }
+        else if (sceneNumber==6) {
+            setScene(7);
+        }
+        else if (sceneNumber==7) {
+            setScene(8);
+        }
+        else if (sceneNumber==8) {
+            setScene(10);
+        }
+        else if (sceneNumber==9) {
+            setScene(10);
+        }
+        else if (sceneNumber==10) {
+            setScene(5);
+        }
+        else if (sceneNumber==11) {
+            setScene(8);
+        }
 } else {
     console.error('Option 1 button pressed when proceed == false')
 }
@@ -157,16 +175,23 @@ function option2(){
     console.log('Option 2 button code executing')
     if(proceed==true){
     if(sceneNumber==2) {
-        setScene(10);
+        setScene(6);
     }
+    else if(sceneNumber==6) {
+        setScene(11);
+    }
+    else if (sceneNumber==8) {
+        setScene(9);
+    }
+     
 }
 }
 
 function option3() {
     console.log('Option 3 button code executing')
     if(proceed==true){
-    if(sceneNumber==2){
-        setScene(599);
+    if(sceneNumber==8){
+        setScene(9);
     }
 }
 }

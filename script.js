@@ -148,6 +148,9 @@ function option1() {
         else if (sceneNumber==4) {
             setScene(5);
         }
+        else if (sceneNumber==5) {
+            setScene(12);
+        }
         else if (sceneNumber==6) {
             setScene(7);
         }

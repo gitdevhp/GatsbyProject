@@ -54,6 +54,6 @@ function setScene(sceneNum) {
     // Part 1 conclusion
     else if (sceneNum==12) {
         scene(sceneNum, placeholder, gat_h, hall, 
-            '["Tom is visibly Angry at you as Nick escorts the Buchanan\'s to their departing limo"]', null, 'Approach Nick when he is alone', 'Continue to wave goodbye to leaving Party-Goers', null);
+            '["At the end of the Party, Tom is visibly Angry at you as Nick escorts the Buchanan\'s to their departing limo"]', null, 'Approach Nick when he is alone', 'Continue to wave goodbye to leaving Party-Goers', null);
     }
 }

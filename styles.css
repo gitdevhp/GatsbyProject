@@ -48,6 +48,7 @@ button:hover{
 
 #options {
   position: absolute;
+  max-height: 8vh;
   width: 100vw;
   left: 0;
   bottom: 2vh;
@@ -59,7 +60,6 @@ button:hover{
   width: 31.3vw;
   padding: 0.5vw;
   margin: 0.5vw;
-  bottom: 0;
   display: inline-block;
 }
 

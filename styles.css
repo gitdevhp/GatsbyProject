@@ -48,6 +48,7 @@ button:hover{
 
 #options {
   position: absolute;
+  align-items: center;
   bottom: 0;
   width: 110vw;
   display: inline-block;

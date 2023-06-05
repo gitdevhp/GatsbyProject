@@ -180,6 +180,8 @@ function option1() {
             setScene(17);
         } else if (sceneNumber==17) {
             setScene(18);
+        } else if (sceneNumber==18) {
+            setScene(19);
         }
 } else {
     console.error('Option 1 button pressed when proceed == false')

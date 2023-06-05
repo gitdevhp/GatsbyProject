@@ -67,5 +67,14 @@ function setScene(sceneNum) {
     } else if (sceneNum==18) {
         scene(sceneNum, gat_s, null, hall, 
             '["Sadness envelops you as you remember the old Daisy, the kind and understanding Daisy during the War."]', null, 'Beleive that you can fix her...', null, null,);
+    } else if(sceneNum==30) {
+        scene(sceneNum, gat_h, tom_n, hall, 
+            '["You arrive at the front step of the Buchanan House, the swealtering heat makes you slightly light headed..."]', null, 'Enter the house', null, null,);
+    } else if(sceneNum==31) {
+        scene(sceneNum, gat_h, tom_n, hall, 
+            '["Welcome!"]', 'Daisy', 'Ask her for a tour of the House', 'Greet her and Look around for Tom', null,);
+    } else if(sceneNum==32) {
+        scene(sceneNum, gat_h, tom_n, hall, 
+            '["Soon later, the final guest, Nick, arrives at the house"]', null, 'next', null, null,);
     }
 }

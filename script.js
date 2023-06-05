@@ -70,7 +70,7 @@ function scene(num, char1, char2, background, text, speaker, option1, option2, o
             setTimeout(function() {
                 document.getElementById("char1").style.display="block"
                 document.getElementById("char1").src=char1;
-                document.getElementById("char1").style.left="7vw"
+                document.getElementById("char1").style.left="10vw"
             }, 305);
         } else {
             document.getElementById("char1").style.display="block"
@@ -87,7 +87,7 @@ function scene(num, char1, char2, background, text, speaker, option1, option2, o
             setTimeout(function() {
                 document.getElementById("char2").style.display="block"
                 document.getElementById("char2").src=char2;
-                document.getElementById("char2").style.right="8vw"
+                document.getElementById("char2").style.right="11vw"
             }, 405);
         } else {
             document.getElementById("char2").style.display="block"

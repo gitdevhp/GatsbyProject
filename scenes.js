@@ -3,6 +3,10 @@ var gat_h = 'image/character/gatsby_happy.png'
 var gat_n = 'image/character/gatsby_neutral.png'
 var gat_s = 'image/character/gatsby_sad.png'
 var tom_n = 'image/character/tom_neutral.png'
+var wolf = 'image/character/placeholder.jpeg'
+var daisy = 'image/character/placeholder.jpeg'
+var nick = 'image/character/placeholder.jpeg'
+
 
 var hall_old = 'hall.png'
 var hall = 'hall_new.png'
@@ -62,6 +66,7 @@ function setScene(sceneNum) {
         scene(sceneNum, placeholder, gat_s, path, 
             '["You notice Nick approaching you"]', null, 'Explain to Nick that Daisy did\'nt enojoy the party', null, null,);
     } else if (sceneNum==17) {
+<<<<<<< Updated upstream
         scene(sceneNum, gat_s,placeholder, path, 
             '["I\'m sure she enojoyed it!"]', 'Nick', 'Continue to whine fr :skull:', null, null,);
     } else if (sceneNum==18) {
@@ -76,5 +81,9 @@ function setScene(sceneNum) {
     } else if(sceneNum==32) {
         scene(sceneNum, gat_h, tom_n, hall, 
             '["Soon later, the final guest, Nick, arrives at the house"]', null, 'next', null, null,);
+=======
+        scene(sceneNum, gat_h, tom_n, path, 
+            '["I\'m sure she enojoyed it!"]', 'Nick', 'Comment that you feel that your relationship with Daisy is distant.', null, null,);
+>>>>>>> Stashed changes
     }
 }

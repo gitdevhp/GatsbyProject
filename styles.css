@@ -49,7 +49,8 @@ button:hover{
 #options {
   position: absolute;
   bottom: 0;
-  width: 100vw;
+  width: 0vw;
+  display: inline-block;
 }
 
 .option {
@@ -68,7 +69,7 @@ button:hover{
   right: 0;
   top: 58vh;
   width: 95vw;
-  height: 23vh;
+  height: 18vh;
   size: 30px;
   font-size: 1.6em;
   background-color: black;

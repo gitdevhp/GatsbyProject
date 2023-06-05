@@ -3,7 +3,7 @@ var gat_h = 'image/character/gatsby_happy.png'
 var gat_n = 'image/character/gatsby_neutral.png'
 var gat_s = 'image/character/gatsby_sad.png'
 var tom_n = 'image/character/tom_neutral.png'
-var wolf = 'image/character/wolf_temp.jpeg'
+var wolf = 'image/character/wolf_temp.png'
 var daisy = 'image/character/daisy_temp.png'
 var nick = 'image/character/nick_temp.jpeg'
 
@@ -51,7 +51,7 @@ function setScene(sceneNum) {
         scene(sceneNum, gat_h, tom_n, party, 
             '["Tom, suspicous of your relationship with Daisy, follows you in."]', null, 'Introduce Tom to the partygoers as a Polo Player', null, null);
     } else if (sceneNum==12) { // Part 1 conclusion
-        scene(sceneNum, gat_h, null, path, 
+        scene(sceneNum, gat_h, tom_n, path, 
             '["By the end of the Party, Tom is visibly flustered. The Buchanans are escorted by your neighbor and friend Nick to their waiting limousine."]', null, 'Go to your room and approach Nick when he is alone', 'Stay where you are, waving goodbye to departing partygoers.', null);
     } else if (sceneNum==13) {
         scene(sceneNum, gat_n, null, hall, 

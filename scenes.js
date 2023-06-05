@@ -56,7 +56,7 @@ function setScene(sceneNum) {
             '["You suddenly get sad as you realize that Daisy did not truly enjoy the party"]', null, 'next', null, null,);
     } else if (sceneNum==15) {
         scene(sceneNum, gat_n, null, hall, 
-            '["The phone call reminds you that the money you\'ve earned has not been earned through rightful means and you hope Daisy never finds out."]', null, 'next', null, null,);
+            '["After the phone call, as you stroll outside, the phone call reminds you that the money you\'ve earned has not been earned through rightful means and you hope Daisy never finds out..."]', null, 'next', null, null,);
     } else if (sceneNum==16) {
         scene(sceneNum, gat_h, tom_n, hall, 
             '["You notice Nick approaching you"]', null, 'next', null, null,);

@@ -51,8 +51,7 @@ button:hover{
   width: 100vw;
   left: 0;
   bottom: 2vh;
-  display: block;
-  justify-content: center;
+  display: inline-block;
 }
 
 .option {
@@ -61,6 +60,7 @@ button:hover{
   padding: 0.5vw;
   margin: 0.5vw;
   display: inline-block;
+  vertical-align: bottom;
 }
 
 #para {

@@ -58,7 +58,7 @@ function setScene(sceneNum) {
         scene(sceneNum, gat_n, null, hall, 
             '["After the phone call, as you stroll outside, the phone call reminds you that the money you\'ve earned has not been earned through rightful means and you hope Daisy never finds out..."]', null, 'next', null, null,);
     } else if (sceneNum==16) {
-        scene(sceneNum, gat_h, tom_n, hall, 
+        scene(sceneNum, placeholder, gat_s, hall, 
             '["You notice Nick approaching you"]', null, 'next', null, null,);
     }
 }

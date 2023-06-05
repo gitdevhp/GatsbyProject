@@ -5,7 +5,7 @@ var gat_s = 'image/character/gatsby_sad.png'
 var tom_n = 'image/character/tom_neutral.png'
 var wolf = 'image/character/wolf_temp.png'
 var daisy = 'image/character/daisy_temp.png'
-var nick = 'image/character/nick_temp.jpeg'
+var nick = 'image/character/nick_temp.png'
 
 
 var hall_old = 'hall.png'

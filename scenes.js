@@ -48,7 +48,7 @@ function setScene(sceneNum) {
             '["Let us Dance! Shall we?"]', 'Daisy', 'Dance Gracefully with Daisy', null, null);
     }
     else if (sceneNum==11) {
-        scene(sceneNum, placeholder, null, hall, 
+        scene(sceneNum, tom_n, null, hall, 
             '["Tom, suspicous of your relationship with Daisy, follows you in."]', null, 'Introduce Tom as a Polo Player', null, null);
     }
     // Part 1 conclusion

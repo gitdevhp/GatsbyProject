@@ -97,7 +97,7 @@ function setScene(sceneNum) {
             '["𝘕𝘦𝘹𝘵 𝘋𝘢𝘺"]', null, 'Next', null, null,);
     } else if(sceneNum==27) {
         scene(sceneNum, gat_n, null, hall, 
-            '["You arrive at the front step of the Buchanan Estate, the swealtering making you noticably light headed..."]', null, 'Knock on the door, and enter the mansion', null, null,);
+            '["You arrive at the front step of the Buchanan Estate, the swealtering heat making you noticably light headed..."]', null, 'Knock on the door, and enter the mansion', null, null,);
     } else if(sceneNum==28) {
         scene(sceneNum, gat_h, daisy, hall, 
             '["Welcome, Jay!"]', 'Daisy', 'Ask Daisy for a tour of the mansion', 'Greet her, before searching around the house for Tom', null,);

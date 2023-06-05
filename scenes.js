@@ -92,18 +92,21 @@ function setScene(sceneNum) {
     } else if (sceneNum==25) {
         scene(sceneNum, gat_n, nick, hall, 
             '["I see."]', 'Nick', 'Invite Nick to have lunch with you and Daisy tomorrow afternoon', null, null,);
-    } else if(sceneNum==26) {
-        scene(sceneNum, gat_n, null, hall, 
-            '["You arrive at the front step of the Buchanan House, the swealtering heat makes you slightly light headed..."]', null, 'Enter the house', null, null,);
+    } else if (sceneNum==26) {
+        scene(sceneNum, null, null, null, 
+            '["𝘕𝘦𝘹𝘵 𝘋𝘢𝘺"]', null, 'Next', null, null,);
     } else if(sceneNum==27) {
+        scene(sceneNum, gat_n, null, hall, 
+            '["You arrive at the front step of the Buchanan Estate, the swealtering making you noticably light headed..."]', null, 'Knock on the door, and enter the mansion', null, null,);
+    } else if(sceneNum==28) {
         scene(sceneNum, gat_h, daisy, hall, 
-            '["Welcome!"]', 'Daisy', 'Ask her for a tour of the House', 'Greet her and Look around for Tom', null,);
-    } else if(sceneNum==28){
-        scene(sceneNum, gat_h, null, hall, '["Tom seems to be busy on a phone call"]', null, 'next', null, null,);
-    } else if(sceneNum==29) {
+            '["Welcome, Jay!"]', 'Daisy', 'Ask her for a tour of the House', 'Greet her and Look around for Tom', null,);
+    } else if(sceneNum==29){
+        scene(sceneNum, gat_h, null, hall, '["Tom seems to be busy discussing important matters over the phone"]', null, 'next', null, null,);
+    } else if(sceneNum==30) {
         scene(sceneNum, gat_n, nick, hall, 
             '["Soon, the final guest, Nick, arrives at the house"]', null, 'next', null, null,);
-    } else if(sceneNum==30) {
+    } else if(sceneNum==31) {
         scene(sceneNum, gat_h, tom_n, hall, 
             '[""]', null, 'next', null, null,);
     }

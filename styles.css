@@ -96,6 +96,7 @@ button:hover{
   top: 55.8vh;
   height: 5vh;
   width: 15vw;
+  max-width: 15vw;
   left: 2.1vw;
   z-index: 4;
 }

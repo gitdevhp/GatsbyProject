@@ -52,6 +52,7 @@ button:hover{
   left: 0;
   bottom: 2vh;
   display: block;
+  justify-content: center;
 }
 
 .option {

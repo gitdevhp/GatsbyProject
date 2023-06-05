@@ -14,8 +14,7 @@ var party= 'party.png'
 function setScene(sceneNum) {
     console.log('At Setscene; sceneNum = ' + sceneNum)
     if (sceneNum == 1) {
-        scene(sceneNum, gat_h, tom_n, hall, 
-        '["You catch your breath, having hastened yourself to the door to greet two freshly-arrived guests, Tom and Daisy Buchanan."]', null, 'next', null, null,);
+        scene(sceneNum, gat_h, tom_n, hall, '["You catch your breath, having hastened yourself to the door to greet two freshly-arrived guests, Tom and Daisy Buchanan."]', null, 'next', null, null,);
     } else if (sceneNum == 2) {
         console.log('Got to if scene num = 2 statement in setSceneFunction')
         scene(sceneNum, gat_n, placeholder, hall, 
@@ -48,6 +47,18 @@ function setScene(sceneNum) {
             '["Tom, suspicous of your relationship with Daisy, follows you in."]', null, 'Introduce Tom as a Polo Player', null, null);
     } else if (sceneNum==12) { // Part 1 conclusion
         scene(sceneNum, placeholder, gat_h, path, 
-            '["At the end of the Party, Tom is visibly flustered as the Buchanans are escorted by your neighbor and friend Nick to their waiting limousine."]', null, 'Approach Nick when he is alone', 'Stay where you are, waving goodbye to departing partygoers.', null);
+            '["At the end of the Party, Tom is visibly flustered as the Buchanans are escorted by your neighbor and friend Nick to their waiting limousine."]', null, 'Go to your room and approach Nick when he is alone', 'Stay where you are, waving goodbye to departing partygoers.', null);
+    } else if (sceneNum==13) {
+        scene(sceneNum, placeholder, gat_n, hall, 
+            '["Chicago is on the line..."]', 'Servant', 'Pick up the phone', 'Tell the servant to explain that you are busy', null,);
+    } else if (sceneNum==14) {
+        scene(sceneNum, gat_s, null, hall,
+            '["You suddenly get sad as you realize that Daisy did not truly enjoy the party"]', null, 'next', null, null,);
+    } else if (sceneNum==15) {
+        scene(sceneNum, gat_n, null, hall, 
+            '["The phone call reminds you that the money you\'ve earned has not been earned through rightful means and you hope Daisy never finds out."]', null, 'next', null, null,);
+    } else if (sceneNum==16) {
+        scene(sceneNum, gat_h, tom_n, hall, 
+            '["You notice Nick approaching you"]', null, 'next', null, null,);
     }
 }

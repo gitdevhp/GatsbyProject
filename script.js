@@ -145,6 +145,7 @@ function option1() {
 } else {
     console.error('Option 1 button pressed when proceed == false')
 }
+proceed=false;
 }
 
 function option2(){

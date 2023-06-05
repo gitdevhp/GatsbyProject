@@ -16,7 +16,7 @@ function setScene(sceneNum) {
     } else if (sceneNum == 2) {
         console.log('Got to if scene num = 2 statement in setSceneFunction')
         scene(sceneNum, gat_n, placeholder, hall, 
-        '["Nervously, you greet the Buchanans"]', null, 'Continue talking with Daisy', 'Look at Daisy, but contain your urge to talk with her', null);
+        '["Nervously, you greet the Buchanans, welcoming them to the party."]', null, 'Continue talking with Daisy', 'Look at Daisy, but contain your urge to talk with her', null);
     } else if (sceneNum==3) {
         scene(sceneNum, placeholder, gat_h, hall, '["What a lively party you have!"]', 'Daisy', 'Agree apathetically and ask her to dance', null, null);
     } else if (sceneNum==4) {

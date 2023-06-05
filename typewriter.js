@@ -27,7 +27,7 @@ TxtType.prototype.tick = function () {
     disableButtons(false);
   }
   var that = this;
-  var delta = 35 - Math.random() * 20;
+  var delta = 15 - Math.random() * 5;
 
   if (this.isDeleting) {
     delta /= 2;

@@ -40,7 +40,7 @@ function setScene(sceneNum) {
             '["Mind your own business, bootlegger. I don\'t want some lawbreaker messing around in my personal life, and neither does Daisy!"]', 'Tom', 'Introduce Tom to the partygoers as a Polo Player', null, null);
     } else if (sceneNum==8) {
         scene(sceneNum, gat_h, placeholder, party, 
-            '["As Tom “The Polo Player” awkwardly mingles with party-goers, Daisy starts talking you up."]', null, 'Ask Daisy to dance with you.', 'Wait for Daisy to get comfortable before inviting her to dance', 'Continue to chat with Daisy');
+            '["As Tom “The Polo Player” awkwardly mingles with party-goers, Daisy starts conversing with you."]', null, 'Ask Daisy to dance with you.', 'Wait for Daisy to get comfortable before inviting her to dance', 'Continue to chat with Daisy');
     } else if (sceneNum==9) {
         scene(sceneNum, gat_h, null, party, 
             '["You Continue to keep Daisy company, but you notice that Daisy is growing disinterested and wearisome of the party."]', null, 'Ask Daisy to dance with you.', null, null);

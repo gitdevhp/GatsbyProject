@@ -27,7 +27,7 @@ p {
 }
 
 button {
-    transition: .1s ease-in-out;
+    transition: .2s ease-in-out;
     background-color: black;
     color: seashell;
     border: 2px solid seashell;

@@ -50,6 +50,7 @@ button:hover{
   position: absolute;
   bottom: 0;
   width: 110vw;
+  display: inline-block;
 }
 
 .option {

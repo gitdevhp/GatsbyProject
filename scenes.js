@@ -24,7 +24,7 @@ function setScene(sceneNum) {
             '["What a lively party you have!"]', 'Daisy', 'Agree apathetically and ask her to dance', null, null);
     } else if (sceneNum==4) {
         scene(sceneNum, placeholder, gat_h, party, 
-            '["Yes I would love to, if you\'ll have me."]', 'Daisy', 'Next', null, null);
+            '["I would love to, as long as you\'ll have me."]', 'Daisy', 'Next', null, null);
     } else if (sceneNum==5) {
         scene(sceneNum, placeholder, gat_h, party, 
             '["As you Dance, you notice a pair of eyes glaring suspiciously at you and Daisy."]', null, 'next', null, null);
@@ -38,7 +38,8 @@ function setScene(sceneNum) {
         scene(sceneNum, gat_h, placeholder, party, 
             '["As Tom “The Polo Player” awkwardly mingles with party-goers, Daisy starts talking you up."]', null, 'Ask Daisy to dance with you.', 'Wait for Daisy to get comfortable before inviting her to dance', 'Continue to chat with Daisy');
     } else if (sceneNum==9) {
-        scene(sceneNum, gat_h, null, party, '["You Continue to keep Daisy company, but you notice that Daisy is growing disinterested and wearisome of the party."]', null, 'Ask Daisy to dance with you.', null, null);
+        scene(sceneNum, gat_h, null, party, 
+            '["You Continue to keep Daisy company, but you notice that Daisy is growing disinterested and wearisome of the party."]', null, 'Ask Daisy to dance with you.', null, null);
     } else if (sceneNum==10) {
         scene(sceneNum, gat_h, placeholder, party, 
             '["Well...alright then Jay. It has been awhile, but I\'d love a spin around the dance floor."]', 'Daisy', 'Dance Gracefully with Daisy', null, null);
@@ -47,7 +48,7 @@ function setScene(sceneNum) {
             '["Tom, suspicous of your relationship with Daisy, follows you in."]', null, 'Introduce Tom as a Polo Player', null, null);
     } else if (sceneNum==12) { // Part 1 conclusion
         scene(sceneNum, placeholder, gat_h, path, 
-            '["At the end of the Party, Tom is visibly flustered as the Buchanans are escorted by your neighbor and friend Nick to their waiting limousine."]', null, 'Go to your room and approach Nick when he is alone', 'Stay where you are, waving goodbye to departing partygoers.', null);
+            '["At the end of the Party, Tom is visibly flustered. \nThe Buchanans are escorted by your neighbor and friend Nick to their waiting limousine."]', null, 'Go to your room and approach Nick when he is alone', 'Stay where you are, waving goodbye to departing partygoers.', null);
     } else if (sceneNum==13) {
         scene(sceneNum, placeholder, gat_n, hall, 
             '["Chicago is on the line..."]', 'Servant', 'Pick up the phone', 'Tell the servant to explain that you are busy', null,);

@@ -52,13 +52,16 @@ function setScene(sceneNum) {
         scene(sceneNum, placeholder, gat_n, hall, 
             '["Chicago is on the line..."]', 'Servant', 'Pick up the phone', 'Tell the servant to explain that you are busy', null,);
     } else if (sceneNum==14) {
-        scene(sceneNum, gat_s, null, hall,
+        scene(sceneNum, gat_s, null, path,
             '["You suddenly get sad as you realize that Daisy did not truly enjoy the party"]', null, 'next', null, null,);
     } else if (sceneNum==15) {
-        scene(sceneNum, gat_n, null, hall, 
+        scene(sceneNum, gat_n, null, path, 
             '["After the phone call, as you stroll outside, the phone call reminds you that the money you\'ve earned has not been earned through rightful means and you hope Daisy never finds out..."]', null, 'next', null, null,);
     } else if (sceneNum==16) {
-        scene(sceneNum, placeholder, gat_s, hall, 
-            '["You notice Nick approaching you"]', null, 'next', null, null,);
+        scene(sceneNum, placeholder, gat_s, path, 
+            '["You notice Nick approaching you"]', null, 'Explain to Nick that Daisy did\'nt enojoy the party', null, null,);
+    } else if (sceneNum==17) {
+        scene(sceneNum, gat_h, tom_n, path, 
+            '["I\'m sure she enojoyed it!"]', 'Nick', 'Continue to whine fr :skull:', null, null,);
     }
 }

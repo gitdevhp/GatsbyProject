@@ -59,6 +59,7 @@ button:hover{
   width: 31.3vw;
   padding: 0.5vw;
   margin: 0.5vw;
+  bottom: 0;
   display: inline-block;
 }
 

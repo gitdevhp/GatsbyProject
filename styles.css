@@ -97,7 +97,7 @@ button:hover{
   height: 5vh;
   width: 15vw;
   max-width: 15vw;
-  left: 2vw;
+  left: 5vw;
   z-index: 4;
 }
   
@@ -190,8 +190,8 @@ body {
 #gradient {
   position: absolute;
   bottom: 0;
-  height: 40vh;
+  height: 50vh;
   width: 100vw;
-  background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.8));
+  background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.9));
   z-index: -5;
 }

@@ -48,7 +48,6 @@ button:hover{
 
 #options {
   position: absolute;
-  align-items: center;
   bottom: 0;
   width: 110vw;
   display: inline-block;
@@ -70,7 +69,7 @@ button:hover{
   right: 0;
   top: 58vh;
   width: 95vw;
-  height: 23vh;
+  height: 18vh;
   size: 30px;
   font-size: 1.6em;
   background-color: black;

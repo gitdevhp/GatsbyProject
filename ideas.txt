@@ -1,4 +1,0 @@
-add narraration vs option setting
-change button text setting for choices
-add pictures for characters in file
-when is the starting point??????????!!!!!!

@@ -108,14 +108,14 @@ function scene(num, char1, char2, background, text, speaker, option1, option2, o
         document.getElementById("option2").style.display="none";
     } else {
         document.getElementById("option2").innerHTML=option2;
-        document.getElementById("option2").style.display="block";
+        document.getElementById("option2").style.display="inline-block";
         console.log("Option 2 enabled, set to " + option2);
     }
     if (option3 == null || option3 == "null") {
         document.getElementById("option3").style.display="none";
     } else {
         document.getElementById("option3").innerHTML=option3;
-        document.getElementById("option3").style.display="block";
+        document.getElementById("option3").style.display="inline-block";
         console.log("Option 3 enabled, set to " + option3);
     }
     console.log('Speaker set to ' + speaker)

@@ -51,7 +51,7 @@ button:hover{
   width: 100vw;
   left: 0;
   bottom: 2vh;
-  display: inline-block;
+  display: block;
 }
 
 .option {

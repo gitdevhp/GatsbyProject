@@ -62,7 +62,10 @@ function setScene(sceneNum) {
         scene(sceneNum, placeholder, gat_s, path, 
             '["You notice Nick approaching you"]', null, 'Explain to Nick that Daisy did\'nt enojoy the party', null, null,);
     } else if (sceneNum==17) {
-        scene(sceneNum, gat_h, tom_n, path, 
+        scene(sceneNum, gat_s,placeholder, path, 
             '["I\'m sure she enojoyed it!"]', 'Nick', 'Continue to whine fr :skull:', null, null,);
+    } else if (sceneNum==18) {
+        scene(sceneNum, gat_s, null, hall, 
+            '["Sadness envelops you as you remember the old Daisy, the kind and understanding Daisy during the War."]', null, 'Beleive that you can fix her...', null, null,);
     }
 }

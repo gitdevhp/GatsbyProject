@@ -135,43 +135,22 @@ function scene(num, char1, char2, background, text, speaker, option1, option2, o
 function option1() {
     console.log('Proceed Value: ' + proceed);
     if (proceed == true) {
-        if (sceneNumber==1) {
-            console.log('Setting scene to 2')
-            setScene(2);
-        }
-        else if (sceneNumber==2) {
-        setScene(3);
-        }
-        else if (sceneNumber==3) {
-            setScene(4);
-        }
-        else if (sceneNumber==4) {
-            setScene(5);
-        }
-        else if (sceneNumber==5) {
-            setScene(12);
-        }
-        else if (sceneNumber==6) {
-            setScene(7);
-        }
-        else if (sceneNumber==7) {
-            setScene(8);
-        }
-        else if (sceneNumber==8) {
-            setScene(10);
-        }
-        else if (sceneNumber==9) {
-            setScene(10);
-        }
-        else if (sceneNumber==10) {
-            setScene(5);
-        }
-        else if (sceneNumber==11) {
-            setScene(8); } else if (sceneNumber==12) { setScene(13); } 
+        if (sceneNumber==1) { setScene(2); } 
+        else if (sceneNumber==2) { setScene(3); } 
+        else if (sceneNumber==3) { setScene(4); } 
+        else if (sceneNumber==4) { setScene(5); } 
+        else if (sceneNumber==5) { setScene(12); } 
+        else if (sceneNumber==6) { setScene(7); } 
+        else if (sceneNumber==7) { setScene(8); } 
+        else if (sceneNumber==8) { setScene(10); } 
+        else if (sceneNumber==9) { setScene(10); } 
+        else if (sceneNumber==10) { setScene(5); } 
+        else if (sceneNumber==11) { setScene(8); } 
+        else if (sceneNumber==12) { setScene(13); } 
         else if (sceneNumber==13) { setScene(15); } 
         else if (sceneNumber==14) { setScene(16); } 
         else if (sceneNumber==15) { setScene(14); } 
-        else if (sceneNumber==16) { setScene(17) } 
+        else if (sceneNumber==16) { setScene(17); } 
         else if (sceneNumber==17) { setScene(18); } 
         else if (sceneNumber==18) { setScene(19); }
         else if (sceneNumber==18) { setScene(19); }
@@ -188,38 +167,28 @@ function option1() {
         else if (sceneNumber==29) { setScene(30); }
         else if (sceneNumber==30) { setScene(31); }
 
-} else {
-    console.error('Option 1 button pressed when proceed == false')
-}
+    } else { console.error('Option 1 button pressed when proceed == false') }
 }
 
 function option2(){
     console.log('Option 2 button code executing')
-    if(proceed==true){
-    if(sceneNumber==2) {
-        setScene(6);
-    }
-    else if(sceneNumber==6) {
-        setScene(11);
-    }
-    else if (sceneNumber==8) {
-        setScene(9);
-    } else if (sceneNumber==12) {
-        setScene(14);
-    } else if (sceneNumber==13) {
-        setScene(14);
-    }
+    if (proceed==true) {
+    if (sceneNumber==2) { setScene(6); }
+    else if (sceneNumber==6) { setScene(11); }
+    else if (sceneNumber==8) { setScene(9); } 
+    else if (sceneNumber==12) { setScene(14); } 
+    else if (sceneNumber==13) { setScene(14); }
     else if (sceneNumber==20) { setScene(22); }
     else if (sceneNumber==28) { setScene(29); }
 
-}
+} else { console.error('Option 2 button pressed when proceed == false') }
 }
 
 function option3() {
     console.log('Option 3 button code executing')
-    if(proceed==true){
-    if(sceneNumber==8){
-        setScene(9);
-    }
-}
+    if (proceed==true) {
+    if (sceneNumber==8) { setScene(9); }
+    
+} else { console.error('Option 3 button pressed when proceed == false') }
+
 }

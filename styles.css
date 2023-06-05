@@ -85,7 +85,7 @@ button:hover{
 
 #speaker {
   font-size: 1.5em;
-  padding: 5px;  
+  padding: 0.1vw;  
   background-color: black;
   color: seashell;
   border: 2px solid seashell;
@@ -97,7 +97,7 @@ button:hover{
   height: 5vh;
   width: 15vw;
   max-width: 15vw;
-  left: 2.1vw;
+  left: 2vw;
   z-index: 4;
 }
   
@@ -193,4 +193,5 @@ body {
   height: 40vh;
   width: 100vw;
   background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.8));
+  z-index: -5;
 }

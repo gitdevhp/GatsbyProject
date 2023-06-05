@@ -48,16 +48,18 @@ button:hover{
 
 #options {
   position: absolute;
-  bottom: 0;
-  width: 0vw;
+  width: 100vw;
+  left: 0;
+  bottom: 2vh;
   display: inline-block;
 }
 
 .option {
+  height: 8vh;
   width: 31.3vw;
   padding: 0.5vw;
   margin: 0.5vw;
-  display: hidden;
+  display: inline-block;
 }
 
 #para {
@@ -68,7 +70,7 @@ button:hover{
   left: 0;
   right: 0;
   top: 58vh;
-  width: 95vw;
+  width: 93vw;
   height: 18vh;
   size: 30px;
   font-size: 1.6em;
@@ -90,9 +92,9 @@ button:hover{
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   position: absolute;
-  top: 55.3vh;
+  top: 55.8vh;
   height: 5vh;
-  width: 10vw;
+  width: 15vw;
   left: 2.1vw;
   z-index: 4;
 }

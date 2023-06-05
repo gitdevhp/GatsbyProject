@@ -38,7 +38,7 @@ function setScene(sceneNum) {
     }
     else if (sceneNum==8) {
         scene(sceneNum, gat_h, placeholder, hall, 
-            '["As Tom "The Polo Player" awkwardly mingles with party-goers, Daisy starts talking with you."]', null, 'Ask Daisy to dance with you.', 'Wait for Daisy to get comfortable before inviting her to dance', 'Continue to chat with Daisy');
+            '["As Tom \"The Polo Player\" awkwardly mingles with party-goers, Daisy starts talking with you."]', null, 'Ask Daisy to dance with you.', 'Wait for Daisy to get comfortable before inviting her to dance', 'Continue to chat with Daisy');
     }
     else if (sceneNum==9) {
         scene(sceneNum, gat_h, null, hall, '["You Continue to keep Daisy company, but you notice that Daisy is getting Bored and Uncomfertable at the Party"]', null, 'Ask Daisy to dance with you.', null, null);

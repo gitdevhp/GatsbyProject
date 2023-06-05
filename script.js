@@ -139,13 +139,12 @@ function option1() {
             console.log('Setting scene to 2')
             setScene(2);
         }
-        if (sceneNumber==2) {
+        else if (sceneNumber==2) {
         setScene(3);
         }
 } else {
     console.error('Option 1 button pressed when proceed == false')
 }
-proceed=false;
 }
 
 function option2(){

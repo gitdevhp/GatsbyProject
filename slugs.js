@@ -9,3 +9,5 @@ function checkURL() {
     const stage = urlParams.get('step');
     setScene(stage);
 }
+
+window.addEventListener('load', checkURL);

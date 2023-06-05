@@ -15,7 +15,10 @@ function setScene(sceneNum) {
         '["You catch your breath, having hastened yourself to the door to greet two freshly-arrived guests, Tom and Daisy Buchanan."]', null, 'next', null, null,);
     } else if (sceneNum == 2) {
         console.log('Got to if scene num = 2 statement in setSceneFunction')
-        scene(sceneNum, tom_n, tom_n, hall, 
-        '["THING!!"]', 'Daisy', 'next', null, null);
+        scene(sceneNum, gat_n, placeholder, hall, 
+        '["Nervously, you greet the Buchanan\'s"]', null, 'Talk More with Daisy', 'Look at Daisy but do not talk with her', null);
+    }
+    else if (sceneNum==3) {
+        scene(sceneNum, placeholder, gat_h, hall, '["What a wonderful party you have!"]', 'Daisy', 'Agree and Ask her to dance with you.', null, null);
     }
 }

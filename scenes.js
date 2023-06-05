@@ -21,4 +21,10 @@ function setScene(sceneNum) {
     else if (sceneNum==3) {
         scene(sceneNum, placeholder, gat_h, hall, '["What a wonderful party you have!"]', 'Daisy', 'Agree and Ask her to dance with you.', null, null);
     }
+    else if (sceneNum==4) {
+        scene(sceneNum, placeholder, gat_h, hall, '["Yes, I would love to, if you\'ll have me."]', 'Daisy', 'Next', null, null);
+    }
+    else if (sceneNum==5) {
+        scene(sceneNum, placeholder, gat_h, hall, '["As you Dance, you notice a pair of suspicious eyes staring at you and Daisy. It\'s Tom..."]', null, 'next', null, null);
+    }
 }

@@ -142,6 +142,12 @@ function option1() {
         else if (sceneNumber==2) {
         setScene(3);
         }
+        else if (sceneNumber==3) {
+            setScene(4);
+        }
+        else if (sceneNumber==4) {
+            setScene(5);
+        }
 } else {
     console.error('Option 1 button pressed when proceed == false')
 }
@@ -151,7 +157,7 @@ function option2(){
     console.log('Option 2 button code executing')
     if(proceed==true){
     if(sceneNumber==2) {
-        setScene(4);
+        setScene(10);
     }
 }
 }
@@ -160,7 +166,7 @@ function option3() {
     console.log('Option 3 button code executing')
     if(proceed==true){
     if(sceneNumber==2){
-        setScene(5);
+        setScene(599);
     }
 }
 }

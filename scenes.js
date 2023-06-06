@@ -222,6 +222,18 @@ function setScene(sceneNum) {
         scene(sceneNum, tom_n, gat_n, hall, 
             '["I suppose the latest thing is to sit back and let Mr. Nobody from Nowhere make love to your wife."]', 'Tom', 'Tell Tom that Daisy has always loved You but not him', null, null,);
     } else if (sceneNum==67) {
+        scene(sceneNum, gat_s, daisy, hall, 
+            '["As you were about to tell Tom, Daisy Stops you looking at you with plea to not say what you wanted to tell Tom."]', null, 'Dont tell Tom', 'Tell Tom later when you\'re alone with him', null,65);
+    } else if (sceneNum==68) {
+        scene(sceneNum, gat_s, null, hall, 
+            '["Tom urges you to tell him what you wanted to say. Your inner desire for Daisy to be your\'s takes over and you cant help it but to give into Tom\'s pressure."]', null, 'Tell him', null, null,);
+    } else if (sceneNum==69) {
+        scene(sceneNum, gat_h, null, hall, 
+            '["Your wife does\'nt love you, She\'s never loved you. She loves me!"]', null, 'next', null, null,75);
+    } else if (sceneNum==70) {
+        scene(sceneNum, gat_h, null, hall, 
+            '["Tom seemes to be shocked, he beleives that you are lying and attempts to call out your bluff."]', null, 'Look at Daisy\'s reaction', 'Continue to argue with Tom', null,);
+    } else if (sceneNum==71) {
         scene(sceneNum, gat_h, null, hall, '[""]', null, 'next', null, null,);
     }
 }

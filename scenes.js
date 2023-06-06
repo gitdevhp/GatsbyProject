@@ -102,18 +102,42 @@ function setScene(sceneNum) {
         scene(sceneNum, null, null, null, 
             '["𝘕𝘦𝘹𝘵 𝘋𝘢𝘺"]', null, 'Next', null, null,);
     } else if(sceneNum==27) {
-        scene(sceneNum, gat_n, null, hall, 
+        scene(sceneNum, gat_n, null, path, 
             '["You arrive at the front step of the Buchanan Estate, the sweltering heat making you noticably light headed..."]', null, 'Knock on the door, and enter the mansion', null, null, 70);
     } else if(sceneNum==28) {
         scene(sceneNum, gat_h, daisy, hall, 
             '["Welcome, Jay!"]', 'Daisy', 'Ask Daisy for a tour of the mansion', 'Greet her, before searching around the house for Tom', null, 75);
     } else if(sceneNum==29){
-        scene(sceneNum, gat_h, null, hall, '["Tom seems to be busy discussing important matters over the phone..."]', null, 'next', null, null,);
+        scene(sceneNum, gat_h, null, hall, '["Tom seems to be busy discussing important matters over the phone..."]', null, 'next', null, null, 75);
     } else if(sceneNum==30) {
-        scene(sceneNum, gat_n, nick, hall, 
-            '["Soon, the final guest, Nick, arrives at the house"]', null, 'next', null, null,);
+        scene(sceneNum, gat_n, nick, path, 
+            '["Soon, the final guest, Nick, arrives at the house. Soon after, Tom enters the lively room after he finishes his call"]', null, 'Signal Daisy to get Tom out of the room', 'Be uncomfortable from the sweltering heat', null, 75);
     } else if(sceneNum==31) {
+        scene(sceneNum, daisy, tom_n, hall, 
+            '["Make us a cold drink!!"]', 'Daisy', 'next', null, null,85);
+    } else if(sceneNum==32) {
         scene(sceneNum, gat_h, tom_n, hall, 
-            '[""]', null, 'next', null, null,);
-    }
+            '["Tom pauses for a second as he leaves the room, suspicious of Daisy\'s intentions. But does leave."]', null, 'Kiss Daisy on the Mouth', 'Make sure Tom is\'nt Watching', null, 90);
+    } else if(sceneNum==33) {
+        scene(sceneNum, gat_h, daisy, hall, 
+            '["You are in awe as you tour the house! This isn\'t just some normal house, this is Daisy\'s home and you can\'t beleive you\'re standing in it!"]', null, 'next', null, null, 80);
+    } else if (sceneNum==34) {
+        scene(sceneNum, gat_h, daisy, hall, 
+            '["As you and Daisy Kiss, the world seems to swirl as Happiness Encircles you"]', null, 'You hear a voice of a Small Child', null, null, 100);
+    } else if (sceneNum==35) {
+        scene(sceneNum, gat_n, null, hall, 
+            '["As you go check to see if Tom really left, out of nowhere, Daisy Grabs you and Kisses you on the mouth"]', null, 'Be Happy', null, null, 90);
+    } else if (sceneNum==36) {
+        scene(sceneNum, gat_s, placeholder, hall, 
+            '["Reality suddenly hits you like a Brick, the child that appeared before you was Daisy\'s and Tom\'s child."]', null, 'Look at the Child in shock', 'Turn to Daisy', null, 65);
+    } else if (sceneNum==37) {
+        scene(sceneNum, gat_s, null, hall, 
+            '["Daisy is too busy fawning over the child to notice you"]', null, 'Look at the Child', null, null, 50);
+    } else if (sceneNum==38) {
+        scene(sceneNum, gat_s, null, hall, 
+            '["The Child looks back at you"]', null, 'next', null, null, 40);
+    } else if (sceneNum==39) {
+        scene(sceneNum, gat_h, null, hall, 
+            '["Where\'s Daddy?"]', 'Child', 'Realize that Daisy and Tom are connected by a Child', null, null, 35);
+    } else if (sceneNum)
 }

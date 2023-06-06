@@ -199,8 +199,26 @@ function setScene(sceneNum) {
             '["Before Tom can say anything, Daisy breaks up the fight. You\'re happy that Daisy protected you from Tom"]', null, 'next', null, null,70);
     } else if (sceneNum==59) {
         scene(sceneNum, daisy, null, hall, 
-            '["Before You can say anything, Daisy steps in to break up the fight."]', null, 'Take a deep breath', null, null,);
+            '["Before You can say anything, Daisy steps in to break up the fight."]', null, 'Take a deep breath', null, null,65);
     } else if (sceneNum==60) {
+        scene(sceneNum, tom_n, gat_n, hall, 
+            '["After Tom and the Others settle down, Tom asks you about your time in Oxford"]', null, 'Tell the truth that you only stayed at Oxford for 5 months', 'Attempt to avoid the question', 'Give a broad answer',);
+    } else if (sceneNum==61) {
+        scene(sceneNum, gat_n, null, hall, 
+            '["It was 1919, I only stayed for 5 months. That\'s why I cant really call myself an Oxford man."]', 'You', 'Brace for Criticism', null, null,);
+    } else if (sceneNum==62) {
+        scene(sceneNum, gat_h, null, hall, 
+            '["You brace for criticism and ridicule from Nick, Daisy, and Tom, but none come as they all seem glad that you told the truth."]', null, 'Be happy that you made the right decision', null, null, 75);
+    } else if (sceneNum==63) {
+        scene(sceneNum, gat_n, tom_n, hall,
+            '["I told you I went there."]', 'You', 'next', null, null,);
+    } else if (sceneNum==64) {
+        scene(sceneNum, tom_n, null, hall, 
+            '["Tom relentlessly asks you for a specific answer, you have no choice but to tell the truth to avoid suspicion"]', null, 'Tell the truth', null, null,);
+    } else if (sceneNum==65) {
+        scene(sceneNum, gat_h, null, hall, 
+            '["Tom seems to have run out of ideas to expose you! But he suddenly lashes out at you and Daisy..."]', null, 'next', null, null,);
+    } else if (sceneNum==66) {
         
     }
 }

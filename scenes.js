@@ -242,6 +242,9 @@ function setScene(sceneNum) {
         scene(sceneNum, gat_h, null, hall, 
             '["Despite Tom\'s protests and efforts to regain Daisy\'s heart, she turns a cold shoulder toward Tom as you stand beside her."]', null, 'next', null, null,);
     } else if (sceneNum==74) {
+        scene(sceneNum, gat_h, null, hall, 
+            '[""]', null, 'next', null, null,);
+    } else if (setScene==75) {
         scene(sceneNum, gat_h, null, hall, '[""]', null, 'next', null, null,);
     }
 }

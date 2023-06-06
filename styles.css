@@ -200,9 +200,9 @@ body {
 #indicator {
   z-index: 0;
   position: absolute;
-  top: 10vh;
+  top: 5vh;
   width: 100vw;
-  height: 30vw;
+  height: 25vw;
   text-align: center;
   opacity: 1;
 }

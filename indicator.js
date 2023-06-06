@@ -1,7 +1,7 @@
 function resize(size) {
     let image = document.getElementById("indicatorImage");
-    image.style.width = size + "vh";
-    image.style.height = size + "vh";
+    image.style.width = size + "vw";
+    image.style.height = size + "vw";
 }
 
 function opacity(opacity) {

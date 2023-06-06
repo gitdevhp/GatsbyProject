@@ -165,5 +165,7 @@ function setScene(sceneNum) {
     } else if (sceneNum==48) {
         scene(sceneNum, placeholder, null, null, 
             '["Driving to city..."]', null, 'next', null, null,);
-    } 
+    } else if (sceneNum==49) {
+        scene(sceneNum, gat_h, null, hall, '["The sweltering City heat makes you uncomfertable as you enter the hotel room with Daisy to meet Tom, Nick, and Jordan."]', null, 'next', null, null, 70);
+    }
 }

@@ -183,13 +183,24 @@ function setScene(sceneNum) {
         scene(sceneNum, gat_n, tom_n, hall, 
             '["You want Daisy to be happy, and to gain her trust, you approach Tom to defend her"]', null, 'next', null, null,);
     } else if (sceneNum==54) {
-        scene(sceneNum, gat_n, daisy, hall, 
+        scene(sceneNum, tom_n, daisy, hall, 
             '["Daisy seems to be uncomfortable with Tom\'s remark. You wish to be more favorable in Daisy\'s eyes."]', null, 'Defend Daisy', 'Aggress Tom', null,);
     } else if (sceneNum==55) {
-        scene(sceneNum, gat_h, null, hall, 
+        scene(sceneNum, gat_s, null, hall, 
             '["Tom\'s attitude towards Daisy angers you, how could someone not appreciate Daisy and be so mean towards her?"]', null,'I would never do such a thing!', null, null,);
     } else if (sceneNum==56) {
-        scene(sceneNum, gat_h, null, hall, 
-            '[""]', null, 'next', null, null,);
+        scene(sceneNum, gat_n, tom_n, hall, 
+            '["Why not let her alone old sport? You\'re the one that wanted to come to town."]', 'You', 'Look for a reaction by Tom', null, null,70);
+    } else if (sceneNum==57) {
+        scene(sceneNum, gat_n, tom_n, hall, 
+            '["Tom seems to be angered by your comment, he attacks your \"Old Sport\" habit which makes you slightly worried that the accent does\'nt fit in natually with the upper class..."]', null, 'Dont fight with Tom', 'Remark that Daisy loves you more than Tom', 'Sarcastically chuckle at Tom\'s remark',60);
+    } else if (sceneNum==58) {
+        scene(sceneNum, daisy, null, hall, 
+            '["Before Tom can say anything, Daisy breaks up the fight. You\'re happy that Daisy protected you from Tom"]', null, 'next', null, null,70);
+    } else if (sceneNum==59) {
+        scene(sceneNum, daisy, null, hall, 
+            '["Before You can say anything, Daisy steps in to break up the fight."]', null, 'Take a deep breath', null, null,);
+    } else if (sceneNum==60) {
+        
     }
 }

@@ -9,9 +9,15 @@ function opacity(opacity) {
     image.style.display = 'block';
     image.style.opacity = opacity;
 }
+function hue(hue) {
+    let image = document.getElementById("indicatorImage");
+    image.style.filter = `hue-rotate(${hue}deg)`;
+
+}
 
 function updateIndicator(toValue) {
     opacity((toValue * 0.006 + 0.2).toString())
+    hue((toValue * 0.5 - 15))
     if (toValue > 50) {
         resize((toValue * 0.15 + 10).toString())
     } else {

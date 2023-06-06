@@ -231,9 +231,17 @@ function setScene(sceneNum) {
         scene(sceneNum, gat_h, null, hall, 
             '["Your wife does\'nt love you, She\'s never loved you. She loves me!"]', null, 'next', null, null,75);
     } else if (sceneNum==70) {
-        scene(sceneNum, gat_h, null, hall, 
+        scene(sceneNum, gat_h, tom_n, hall, 
             '["You\'ve finally let out your inner feelings. Tom seemes to be shocked, he beleives that you are lying and attempts to call out your bluff."]', null, 'Look at Daisy\'s reaction', 'Continue to argue with Tom', null,);
     } else if (sceneNum==71) {
+        scene(sceneNum, gat_n, daisy, hall, 
+            '["Daisy is quiet, you hope this sudden statement has\'nt upset Daisy..."]', null, 'next', null, null,);
+    } else if (sceneNum==72) {
+        scene(sceneNum, gat_n, daisy, hall, '["You never loved Tom right?"]', 'You', 'Listen for Daisy\'s response', null, null,);
+    } else if (sceneNum==73) {
+        scene(sceneNum, gat_h, null, hall, 
+            '["Despite Tom\'s protests and efforts to regain Daisy\'s heart, she turns a cold shoulder toward Tom as you stand beside her."]', null, 'next', null, null,);
+    } else if (sceneNum==74) {
         scene(sceneNum, gat_h, null, hall, '[""]', null, 'next', null, null,);
     }
 }

@@ -180,6 +180,16 @@ function setScene(sceneNum) {
         scene(sceneNum, daisy, null, hall, 
             '["You notice Daisy unconfortably rush in front of the hotel mirror to fix her hair in the hot city heat. Tom seems to get irritated as Daisy talks about the heat."]', null, 'next', null, null,);
     } else if (sceneNum==53) {
-        
+        scene(sceneNum, gat_n, tom_n, hall, 
+            '["You want Daisy to be happy, and to gain her trust, you approach Tom to defend her"]', null, 'next', null, null,);
+    } else if (sceneNum==54) {
+        scene(sceneNum, gat_n, daisy, hall, 
+            '["Daisy seems to be uncomfortable with Tom\'s remark. You wish to be more favorable in Daisy\'s eyes."]', null, 'Defend Daisy', 'Aggress Tom', null,);
+    } else if (sceneNum==55) {
+        scene(sceneNum, gat_h, null, hall, 
+            '["Tom\'s attitude towards Daisy angers you, how could someone not appreciate Daisy and be so mean towards her?"]', null,'I would never do such a thing!', null, null,);
+    } else if (sceneNum==56) {
+        scene(sceneNum, gat_h, null, hall, 
+            '[""]', null, 'next', null, null,);
     }
 }

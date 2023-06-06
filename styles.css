@@ -201,7 +201,7 @@ body {
   vertical-align: middle;
   z-index: 0;
   position: absolute;
-  top: 1vh;
+  top: 0vh;
   width: 100vw;
   height: 25vh;
   text-align: center;

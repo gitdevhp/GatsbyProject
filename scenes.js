@@ -175,6 +175,11 @@ function setScene(sceneNum) {
             '["As you open the window, you hear Diasy complain about the heat"]', null, 'next', null, null,);
     } else if (sceneNum==51) {
         scene(sceneNum, tom_n, daisy, hall, 
-            '[""]', null, 'Defend Daisy', 'Look at Daisy\'s reaction', null,);
+            '["The thing to do is to forget about the heat. You make it ten times worse by crabbing about it!"]', 'Tom', 'Defend Daisy', 'Look at Daisy\'s reaction', 'Aggress Tom',);
+    } else if (sceneNum==52) {
+        scene(sceneNum, daisy, null, hall, 
+            '["You notice Daisy unconfortably rush in front of the hotel mirror to fix her hair in the hot city heat. Tom seems to get irritated as Daisy talks about the heat."]', null, 'next', null, null,);
+    } else if (sceneNum==53) {
+        
     }
 }

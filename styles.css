@@ -197,6 +197,7 @@ body {
 }
 
 #indicator {
+  z-index: -1;
   position: absolute;
   top: 15vh;
   width: 100vw;
@@ -207,6 +208,7 @@ body {
 }
 
 #indicatorImage {
+  z-index: -1;
   transition: all ease-in-out 0.4s;
   display: none;
   height: 15vh;

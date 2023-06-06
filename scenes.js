@@ -137,7 +137,24 @@ function setScene(sceneNum) {
         scene(sceneNum, gat_s, null, hall, 
             '["The Child looks back at you"]', null, 'next', null, null, 40);
     } else if (sceneNum==39) {
-        scene(sceneNum, gat_h, null, hall, 
-            '["Where\'s Daddy?"]', 'Child', 'Realize that Daisy and Tom are connected by a Child', null, null, 35);
-    } else if (sceneNum)
+        scene(sceneNum, gat_s, null, hall, 
+            '["Where\'s Daddy?"]', 'Child', 'Realize that Daisy and Tom could\'ve truly loved each other', null, null, 30);
+    } else if (sceneNum==40) {
+        scene(sceneNum, daisy, gat_s, hall, 
+            '["She does\'nt look like her father..."]', 'Daisy', 'Space Out in Shock', null, null, 35);
+    } else if (sceneNum==41) {
+        scene(sceneNum, gat_s, null, hall, 
+            '["While Tom re-enters the room, the child leaves with the nurse..."]', null, 'Turn toward Daisy', null, null, 35);
+    } else if (sceneNum==42) {
+        scene(sceneNum, gat_n, daisy, hall, 
+            '["You always look so cool..."]', 'Daisy', 'Keep looking at Daisy as your love overcomes the shock', 'Attempt to avoid Daisy and Look for Nick', null, 45);
+    } else if (sceneNum==43) {
+        scene(sceneNum, tom_n, null, path, '["Come on--we\'re all going to town!"]', 'Tom', 'Notice Tom\'s anger', null, null, 50);
+    } else if (sceneNum==44) {
+        scene(sceneNum, gat_h, tom_n, hall, 
+            '["As you take a glance to find Nick, you realize that Tom is angry because of Daisy\'s hints of love toward you"]', null, 'Be normal', null, null, 60);
+    } else if (sceneNum==45) {
+        scene(sceneNum, gat_h, daisy, path, 
+            '["You take Nick and Jordan. We\'ll follow you in the coupé."]', 'Tom', 'Get Close to Daisy to Ride with her', 'Do nothing idk', null, 80);
+    }
 }

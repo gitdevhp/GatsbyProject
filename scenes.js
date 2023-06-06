@@ -217,8 +217,11 @@ function setScene(sceneNum) {
             '["Tom relentlessly asks you for a specific answer, you have no choice but to tell the truth to avoid suspicion"]', null, 'Tell the truth', null, null,);
     } else if (sceneNum==65) {
         scene(sceneNum, gat_h, null, hall, 
-            '["Tom seems to have run out of ideas to expose you! But he suddenly lashes out at you and Daisy..."]', null, 'next', null, null,);
+            '["Tom seems to have run out of ideas to expose you! But he suddenly reveals his suspicion about the relationship between you and Daisy..."]', null, 'next', null, null,);
     } else if (sceneNum==66) {
-        
+        scene(sceneNum, tom_n, gat_n, hall, 
+            '["I suppose the latest thing is to sit back and let Mr. Nobody from Nowhere make love to your wife."]', 'Tom', 'Tell Tom that Daisy has always loved You but not him', null, null,);
+    } else if (sceneNum==67) {
+        scene(sceneNum, gat_h, null, hall, '[""]', null, 'next', null, null,);
     }
 }

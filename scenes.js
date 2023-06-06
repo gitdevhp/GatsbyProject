@@ -232,7 +232,7 @@ function setScene(sceneNum) {
             '["Your wife does\'nt love you, She\'s never loved you. She loves me!"]', null, 'next', null, null,75);
     } else if (sceneNum==70) {
         scene(sceneNum, gat_h, null, hall, 
-            '["Tom seemes to be shocked, he beleives that you are lying and attempts to call out your bluff."]', null, 'Look at Daisy\'s reaction', 'Continue to argue with Tom', null,);
+            '["You\'ve finally let out your inner feelings. Tom seemes to be shocked, he beleives that you are lying and attempts to call out your bluff."]', null, 'Look at Daisy\'s reaction', 'Continue to argue with Tom', null,);
     } else if (sceneNum==71) {
         scene(sceneNum, gat_h, null, hall, '[""]', null, 'next', null, null,);
     }

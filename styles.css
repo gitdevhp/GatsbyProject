@@ -195,3 +195,20 @@ body {
   background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.9));
   z-index: -5;
 }
+
+#indicator {
+  position: absolute;
+  top: 15vh;
+  width: 100vw;
+  height: 30vw;
+  text-align: center;
+  align-items: center;
+  opacity: 1;
+}
+
+#indicatorImage {
+  transition: all ease-in-out 0.4s;
+  display: none;
+  height: 15vh;
+  width: 15vh;
+}

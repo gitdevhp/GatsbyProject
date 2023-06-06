@@ -56,7 +56,7 @@ function disableButtons(state) {
 // Generalized Scene function that can be set with parameters to do any scene.
 //num sets
 //char1 char2 sets the character img
-function scene(num, char1, char2, background, text, speaker, option1, option2, option3) {
+function scene(num, char1, char2, background, text, speaker, option1, option2, option3, indicatorValue) {
     proceed = false;
     disableButtons(true);
     console.log('Proceed variable set to false.')
@@ -129,6 +129,11 @@ function scene(num, char1, char2, background, text, speaker, option1, option2, o
     sceneNumber=num;
     slugify(`game=gaming&step=${num}`);
     console.log(`Scene ${num} loaded.`)
+    if (indicatorValue) {
+        updateIndicator(indicatorValue)
+    } else {
+        console.log('Indicator not updated, since no value provided.')
+    }
 }
 
 //for temp solution to transition scenes

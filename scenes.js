@@ -114,7 +114,7 @@ function setScene(sceneNum) {
             '["Soon, the final guest, Nick, arrives at the house. Soon after, Tom enters the lively room after he finishes his call"]', null, 'Signal Daisy to get Tom out of the room', 'Be uncomfortable from the sweltering heat', null, 75);
     } else if(sceneNum==31) {
         scene(sceneNum, daisy, tom_n, hall, 
-            '["Make us a cold drink!!"]', 'Daisy', 'next', null, null,85);
+            '["Make us a cold drink Tom!!"]', 'Daisy', 'next', null, null,85);
     } else if(sceneNum==32) {
         scene(sceneNum, gat_h, tom_n, hall, 
             '["Tom pauses for a second as he leaves the room, suspicious of Daisy\'s intentions. But does leave."]', null, 'Kiss Daisy on the Mouth', 'Make sure Tom is\'nt Watching', null, 90);

@@ -64,10 +64,16 @@ function setScene(sceneNum) {
             '["Strolling outside, the phone call reminds you of the unrighteous origins of your fortune. You hope Daisy never finds out..."]', null, 'next', null, null,);
     } else if (sceneNum==16) {
         scene(sceneNum, gat_s, nick, path, 
-            '["You notice Nick approaching you"]', null, 'Explain to Nick that you don\'t think Daisy enjoyed the party', null, null,);
+            '["You notice Nick approaching you"]', null, 'Explain to Nick that you don\'t think Daisy enjoyed the party', 'Ignore Nick', null,);
     } else if (sceneNum==17) {
         scene(sceneNum, gat_s, nick, path, 
             '["I\'m sure she enojoyed it! How could she not!"]', 'Nick', 'Comment that you feel that your relationship with Daisy is distant', null, null,);
+    } else if (sceneNum==781) {
+        scene(sceneNum, gat_s, nick, path, 
+            '["Nick leans against a wall near you, and asks you how you\'re feeling"]', null, 'Comment that you feel that your relationship with Daisy is far too distant', null, null,);
+    } else if (sceneNum==782) {
+        scene(sceneNum, gat_s, nick, path, 
+            '["Don\'t worry about it. When it comes to Daisy, you\'re making progress. Just keep doing what you are doing and I\'m sure it will work out exactly as you want it to."]', null, 'Agree, and thank Nick for his consoling words.', 'Mumble some vague critique of Nick\'s analysis, leaving as soon as you get the chance.', null,);
     } else if (sceneNum==18) {
         scene(sceneNum, gat_s, null, hall, 
             '["Sadness envelops you as you remember the Daisy of your memories: the kind and understanding Daisy."]', null, 'Consider how you might restore the dynamic you had in years past', null, null,);

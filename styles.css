@@ -2,6 +2,7 @@ body, html {
     background-color: black;
     color: black;
     overflow: hidden;
+    z-index: -1000;
 }
 
 #game {
@@ -199,7 +200,7 @@ body {
 #indicator {
   z-index: -1;
   position: absolute;
-  top: 15vh;
+  top: 10vh;
   width: 100vw;
   height: 30vw;
   text-align: center;

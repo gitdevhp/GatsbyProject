@@ -169,6 +169,9 @@ function setScene(sceneNum) {
         scene(sceneNum, placeholder, null, null, 
             '["Driving to city..."]', null, 'next', null, null,);
     } else if (sceneNum==49) {
-        scene(sceneNum, gat_n, null, hall, '["The sweltering City heat makes you uncomfertable as you enter the hotel room with Daisy to meet Tom, Nick, and Jordan."]', null, 'Kiss Daisy before you walk in', 'Just walk in', null, 65);
+        scene(sceneNum, gat_n, daisy, hall, '["The sweltering City heat makes you uncomfertable as you enter the hotel room with Daisy to meet Tom, Nick, and Jordan."]', null, 'Kiss Daisy before you walk in', 'Just walk in', null, 65);
+    } else if (sceneNum==50) {
+        scene(sceneNum, gat_n, tom_n, hall, 
+            '[""]', null, 'next', null, null, 80);
     }
 }

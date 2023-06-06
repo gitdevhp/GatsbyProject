@@ -12,7 +12,6 @@ var TxtType = function (el, toRotate, period) {
 TxtType.prototype.tick = function () {
   // play sound
   // click();
-  
   var i = this.loopNum % this.toRotate.length;
   var fullTxt = this.toRotate[i];
   this.txt = fullTxt.substring(0, this.txt.length + 1);
@@ -24,6 +23,15 @@ TxtType.prototype.tick = function () {
   }
   var that = this;
   var delta = 50 - Math.random() * 5;
+
+  if (!this.isDeleting && this.txt === fullTxt) {
+    delta = this.period;
+    this.isDeleting = true;
+  }
+
+  setTimeout(function () {
+    that.tick();
+  }, delta);
 };
 
 function typeText(text, element = "para") {
@@ -32,6 +40,7 @@ function typeText(text, element = "para") {
   if (text) {
     new TxtType(element, JSON.parse(text), period);
   }
+  return true;
 }
 
 

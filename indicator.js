@@ -13,7 +13,7 @@ function opacity(opacity) {
 function updateIndicator(toValue) {
     opacity((toValue * 0.006 + 0.2).toString())
     if (toValue > 50) {
-        resize((toValue * 0.1 + 10).toString())
+        resize((toValue * 0.15 + 10).toString())
     } else {
         resize('15')
     }

@@ -11,40 +11,19 @@ var TxtType = function (el, toRotate, period) {
 
 TxtType.prototype.tick = function () {
   // play sound
-  click();
+  // click();
   
   var i = this.loopNum % this.toRotate.length;
   var fullTxt = this.toRotate[i];
-  if (this.isDeleting) {
-    this.txt = fullTxt.substring(0, this.txt.length - 1);
-  } else {
-    this.txt = fullTxt.substring(0, this.txt.length + 1);
-    document.getElementById(this.el).innerHTML = this.txt;
-  }
+  this.txt = fullTxt.substring(0, this.txt.length + 1);
+  document.getElementById(this.el).innerHTML = this.txt;
   if (fullTxt.length == this.txt.length) {
     console.log('Setting proceed to true, since the text is deemed to have been fully typed.')
     proceed = true;
     disableButtons(false);
   }
   var that = this;
-  var delta = 15 - Math.random() * 5;
-
-  if (this.isDeleting) {
-    delta /= 2;
-  }
-
-  if (!this.isDeleting && this.txt === fullTxt) {
-    delta = this.period;
-    this.isDeleting = true;
-  } else if (this.isDeleting && this.txt === "") {
-    this.isDeleting = false;
-    this.loopNum++;
-    delta = 500;
-  }
-
-  setTimeout(function () {
-    that.tick();
-  }, delta);
+  var delta = 50 - Math.random() * 5;
 };
 
 function typeText(text, element = "para") {
@@ -53,7 +32,6 @@ function typeText(text, element = "para") {
   if (text) {
     new TxtType(element, JSON.parse(text), period);
   }
-  return true;
 }
 
 

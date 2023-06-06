@@ -160,7 +160,7 @@ function setScene(sceneNum) {
         scene(sceneNum, gat_h, daisy, path, 
             '["You take Nick and Jordan. We\'ll follow you in the coupé."]', 'Tom', 'Get Close to Daisy to Ride with her', 'Start Walking toward Nick', null,);
     } else if (sceneNum==46) {
-        scene(sceneNum, tom, nick, hall, 
+        scene(sceneNum, tom_n, nick, hall, 
             '["Tom, with visible anger on his face, storms away with Nick and Jordan"]', null, 'Drive to the City with Daisy', null, null,60);
     } else if (sceneNum==47) {
         scene(sceneNum, gat_h, daisy, hall, 

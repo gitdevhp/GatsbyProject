@@ -204,11 +204,12 @@ body {
   width: 100vw;
   height: 30vw;
   text-align: center;
-  align-items: center;
   opacity: 1;
 }
 
 #indicatorImage {
+  margin-left: auto;
+  margin-right: auto;
   z-index: -1;
   transition: all ease-in-out 0.4s;
   display: none;

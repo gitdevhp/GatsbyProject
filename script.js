@@ -187,6 +187,7 @@ function option1() {
         else if (sceneNumber==42) { setScene(43); }
         else if (sceneNumber==43) { setScene(45); }
         else if (sceneNumber==44) { setScene(43); }
+        else if (sceneNumber==45) { setScene(46); }
 
     } else { console.error('Option 1 button pressed when proceed == false') }
 }
@@ -207,6 +208,7 @@ function option2(){
     else if (sceneNumber==32) { setScene(35); }
     else if (sceneNumber==36) { setScene(37); }
     else if (sceneNumber==42) { setScene(44); }
+    else if (sceneNumber==45) { setScene(47); }
 
 } else { console.error('Option 2 button pressed when proceed == false') }
 }

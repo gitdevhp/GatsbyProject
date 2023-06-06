@@ -155,6 +155,12 @@ function setScene(sceneNum) {
             '["As you take a glance to find Nick, you realize that Tom is angry because of Daisy\'s hints of love toward you"]', null, 'Be normal', null, null, 60);
     } else if (sceneNum==45) {
         scene(sceneNum, gat_h, daisy, path, 
-            '["You take Nick and Jordan. We\'ll follow you in the coupé."]', 'Tom', 'Get Close to Daisy to Ride with her', 'Do nothing idk', null, 80);
+            '["You take Nick and Jordan. We\'ll follow you in the coupé."]', 'Tom', 'Get Close to Daisy to Ride with her', 'Do nothing idk', null,);
+    } else if (sceneNum==46) {
+        scene(sceneNum, gat_h, null, hall, 
+            '[""]', null, 'next', null, null,);
+    } else if (sceneNum==47) {
+        scene(sceneNum, gat_h, null, hall, 
+            '[""]', null, 'next', null, null,);
     }
 }

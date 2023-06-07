@@ -165,18 +165,18 @@ function setScene(sceneNum) {
             '["You take Nick and Jordan. We\'ll follow you in the coupé."]', 'Tom', 'Get Close to Daisy to Ride with her', 'Start Walking toward Nick', null,);
     } else if (sceneNum==46) {
         scene(sceneNum, tom_n, nick, hall, 
-            '["Tom, with visible anger on his face, storms away with Nick and Jordan"]', null, 'Drive to the City with Daisy', null, null,60);
+            '["Tom, visibly angered, storms away with Nick and Jordan"]', null, 'Drive to the City with Daisy', null, null,60);
     } else if (sceneNum==47) {
         scene(sceneNum, gat_h, daisy, hall, 
-            '["Daisy Walks next to you, touching your coat signalling that she wants to ride with you"]', null, 'next', null, null,55);
+            '["Daisy Walks next to you, holding on to your coat endearingly"]', null, 'next', null, null,55);
     } else if (sceneNum==48) {
         scene(sceneNum, placeholder, null, null, 
             '["Driving to city..."]', null, 'next', null, null,);
     } else if (sceneNum==49) {
-        scene(sceneNum, gat_n, daisy, hall, '["The sweltering City heat makes you uncomfertable as you enter the hotel room with Daisy to meet Tom, Nick, and Jordan."]', null, 'Help open a Window in the hotel room', 'Just walk in', null, 65);
+        scene(sceneNum, gat_n, daisy, hall, '["The city heat makes you uncomfertable as you enter the hotel room with Daisy to meet Tom, Nick, and Jordan."]', null, 'Help open a Window in the hotel room', 'Just walk in', null, 65);
     } else if (sceneNum==50) {
         scene(sceneNum, gat_n, daisy, hall, 
-            '["As you open the window, you hear Diasy complain about the heat"]', null, 'next', null, null,);
+            '["As you open the window, you hear Daisy complain about the heat"]', null, 'next', null, null,);
     } else if (sceneNum==51) {
         scene(sceneNum, tom_n, daisy, hall, 
             '["The thing to do is to forget about the heat. You make it ten times worse by crabbing about it!"]', 'Tom', 'Defend Daisy', 'Look at Daisy\'s reaction', 'Aggress Tom',);

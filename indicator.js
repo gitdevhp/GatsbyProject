@@ -25,7 +25,5 @@ function updateIndicator(toValue) {
     console.log('Updated happiness indicator to value ' + toValue)
 }
 
-document.body.onload = function() {
-    document.getElementById('indicatorImage').style.display = 'none';
-    console.log('Hid indicator image from the DOM.')
-}
+  //  document.getElementById('indicatorImage').style.display = 'none';
+  //  console.log('Hid indicator image from the DOM.')

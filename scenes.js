@@ -283,10 +283,10 @@ function setScene(sceneNum) {
     } else if (sceneNum==86) {
         scene(sceneNum, gat_s, null, hall, 
             '["Words Stumble out of your mouth, you don\'t even know what you\'re saying. All you know is that you must hold onto Daisy\'s love"]', null, 'Explain more', 'Stop and look at Daisy\'s expression', null,);
-    } else if (sceneNum=87) {
+    } else if (sceneNum == 87) {
         scene(sceneNum, gat_s, daisy, hall, 
-            '["Daisy is scared, she does\'nt know what to do..."]', null, 'next', null, null,30);
-    } else if (sceneNum==88) {
+            '["Daisy is scared, not knowing what to do..."]', null, 'next', null, null, 30);
+    } else if (sceneNum == 88) {
         scene(sceneNum, tom_n, gat_s, hall, 
             '["Tom insists that you and Daisy go back to East Egg"]', null, 'Leave with Daisy but let Daisy drive', 'Leave with Daisy but you drive', null,);
     } else if (sceneNum==89) {

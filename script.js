@@ -146,6 +146,7 @@ function option1() {
     console.log('Proceed Value: ' + proceed);
     if (proceed == true) {
         if (sceneNumber==1) { setScene(2); } 
+        else if (sceneNumber==87) { setScene(88); }
         else if (sceneNumber==2) { setScene(3); } 
         else if (sceneNumber==3) { setScene(4); } 
         else if (sceneNumber==4) { setScene(5); } 
@@ -235,7 +236,6 @@ function option1() {
         else if (sceneNumber==84) { setScene(85); }
         else if (sceneNumber==85) { setScene(86); }
         else if (sceneNumber==86) { setScene(85); }
-        else if (sceneNumber==87) { setScene(88); }
         else if (sceneNumber==88) { setScene(90); }
         else if (sceneNumber==89) { setScene(90); }
         else if (sceneNumber==90) { setScene(91); }
@@ -249,7 +249,6 @@ function option1() {
         else if (sceneNumber==99) { setScene(101); }
         else if (sceneNumber==101) { setScene(102); }
         else if (sceneNumber==102) { setScene(120); }
-
         else if (sceneNumber==120) { setScene(121); }
         else if (sceneNumber==121) { setScene(122); }
         else if (sceneNumber==122) { setScene(123); }

@@ -334,29 +334,46 @@ function setScene(sceneNum) {
     } else if (sceneNum==120) {
         scene(sceneNum, gat_s, null, hall, 
             '["The feeling of dejection and loss of sleep makes you weary and tired..."]', null, 'Open the front door to get some fresh air', 'Get a servant to open some windows and doors for fresh air', null,65);
-      } else if (sceneNum==121) {
+    } else if (sceneNum==121) {
         scene(sceneNum, nick, gat_s, hall, 
             '["Hello Jay..."]', 'Nick', 'Welcome Nick into your home', null, null,);
-      } else if (sceneNum==122) {
+    } else if (sceneNum==122) {
         scene(sceneNum, gat_s, null, hall, 
             '["You ought to go away"]', 'Nick', 'Consider it', 'Stay', null,);
-      } else if (sceneNum==123) {
+    } else if (sceneNum==123) {
         scene(sceneNum, gat_n, nick, hall, 
             '["Go away now, Old Sport?"]', 'You', 'next', null, null,);
-      } else if (sceneNum==124) {
+    } else if (sceneNum==124) {
         scene(sceneNum, gat_s, nick, hall, 
             '["As Nick attempts to convince you to run away, you realize that nothing will ever convince you to leave Daisy behind..."]', null, 'Talk to Nick about your first encounter with Daisy', null, null,70);
-      } else if (sceneNum==125) {
+    } else if (sceneNum==125) {
         scene(sceneNum, gat_n, null, hall, 
             '["As you explain Daisy\'s popularity, wealth, and personality, you remember the unforgettable experiences you had with her. Daisy still loves you and you must try to re-capture her heart."]', null, 'Your Gardener approaches you', null, null,75);
-      } else if (sceneNum==126) {
+    } else if (sceneNum==126) {
         scene(sceneNum, placeholder, gat_n, hall, 
             '["The leaves are falling and could clog up the drain. Should I drain the pool, sir?"]', "Servant", 'Drain the Pool', 'Do not drain the pool', null,);
-      } else if (sceneNum==127) {
+    } else if (sceneNum==127) {
         scene(sceneNum, gat_n, placeholder, hall, 
-            '["Wait a day, I hav\'nt gone swimming this summer yet"]', null, 'next', null, null,);
-      } else if (sceneNum==128) {
-        scene(sceneNum, gat_h, null, hall, '["Right before you are about to tell the servant to drain the pool, you remember that you hav\'nt gone swimming at all this summer and you hope to swim at least once this year."]', null, 'next', null, null, 80);
-      }
+            '["Wait a day, I hav\'nt gone swimming this summer yet"]', null, 'Go use the pool or swim', null, null,);
+    } else if (sceneNum==128) {
+        scene(sceneNum, gat_n, null, hall, 
+            '["Right before you are about to tell the servant to drain the pool, you remember that you hav\'nt gone swimming at all this summer and you hope to swim at least once this year."]', null, 'next', null, null,);
+    } else if (sceneNum==129) {
+        scene(sceneNum, gat_h, null, hall, 
+            '["As you lay out ontop of a matress on the pool you realize how beautiful the falling leaves were"]', null, 'Think about Daisy', 'Rethink Nick\'s suggestion to run away', null, 70);
+    } else if (sceneNum==130) {
+        scene(sceneNum, gat_h, null, hall, 
+            '["You remember how nice Daisy was to you and how she used to love you during the war... No matter what, tou beleive Daisy will one day come back to you"]', null, 'Call for your servant', 'Take a dip into the pool', 'Think more about Daisy', 80);
+    } else if (sceneNum==131) {
+        scene(sceneNum, gat_h, null, hall, 
+            '["You think about Gatsby\'s suggestion, wondering if you\'ve made the correct decision to stay. "]', null, 'next', null, null, 75);
+    } else if (sceneNum==132) {
+        //GUNSHOT SOUNDS BANG BANG BANG 
+        //WAIT FOR 3 SECONDS IDK
+        //THEN DO A SAD SCENEWHERE GATBY THINKS IF HE COULDVE DONE ANYTHING DIFFERENT
+        // NEXT BUTTON OR OPTION 1 BUTTON THAT GOES TO SCENE 133
+    } else if (sceneNum==133) {
+        //THE END OR RESTART BUTTON
+    }
       
 }

@@ -352,6 +352,11 @@ function setScene(sceneNum) {
       } else if (sceneNum==126) {
         scene(sceneNum, placeholder, gat_n, hall, 
             '["The leaves are falling and could clog up the drain. Should I drain the pool, sir?"]', "Servant", 'Drain the Pool', 'Do not drain the pool', null,);
+      } else if (sceneNum==127) {
+        scene(sceneNum, gat_n, placeholder, hall, 
+            '["Wait a day, I hav\'nt gone swimming this summer yet"]', null, 'next', null, null,);
+      } else if (sceneNum==128) {
+        scene(sceneNum, gat_h, null, hall, '["Right before you are about to tell the servant to drain the pool, you remember that you hav\'nt gone swimming at all this summer and you hope to swim at least once this year."]', null, 'next', null, null, 80);
       }
       
 }

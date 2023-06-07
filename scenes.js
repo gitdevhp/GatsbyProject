@@ -275,7 +275,23 @@ function setScene(sceneNum) {
         scene(sceneNum, gat_s, daisy, hall, 
             '["These accusations are false Daisy!"]', "You", 'attempt to convince daisy that You are righteous', null, null,45);
     } else if (sceneNum==85) {
-        scene(sceneNum, gat_h, null, hall, 
-            '[""]', null, 'next', null, null,);
-    }
+        scene(sceneNum, gat_s, null, null, 
+            '["Stress and Desperation takes over, you\'re not sure what to do."]', null, 'Continue to Explain yourself', null, null,40);
+    } else if (sceneNum==86) {
+        scene(sceneNum, gat_s, null, hall, 
+            '["Words Stumble out of your mouth, you don\'t even know what you\'re saying. All you know is that you must hold onto Daisy\'s love"]', null, 'Explain more', 'Stop and look at Daisy\'s expression', null,);
+    } else if (sceneNum=87) {
+        scene(sceneNum, gat_s, daisy, hall, 
+            '["Daisy is scared, she does\'nt know what to do..."]', null, 'next', null, null,30);
+    } else if (sceneNum==88) {
+        scene(sceneNum, tom_n, gat_s, hall, 
+            '["Tom insists that you and Daisy go back to East Egg"]', null, 'Leave with Daisy but let Daisy drive', 'Leave with Daisy but you drive', null,);
+    } else if (sceneNum==89) {
+        scene(sceneNum, daisy, gat_s, hall, 
+            '["Let me drive, it\'ll help me calm down."]', null, 'Let Daisy Drive', null, null,25);
+    } else if (sceneNum==90) {
+        scene(sceneNum, null, null, hall, 
+            '["Driving back to East Egg..."]', 'Driving', 'next', null, null,);
+    }       
+
 }

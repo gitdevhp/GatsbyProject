@@ -228,6 +228,10 @@ function option1() {
         else if (sceneNumber==82) { setScene(81); }
         else if (sceneNumber==83) { setScene(84); }
         else if (sceneNumber==84) { setScene(85); }
+        else if (sceneNumber==85) { setScene(86); }
+        else if (sceneNumber==86) { setScene(85); }
+        else if (sceneNumber==87) { setScene(88); }
+        else if (sceneNumber==88) { setScene(90); }
 
     } else { console.error('Option 1 button pressed when proceed == false') }
 }
@@ -258,6 +262,9 @@ function option2(){
     else if (sceneNumber==74) { setScene(76); }
     else if (sceneNumber==77) { setScene(79); }
     else if (sceneNumber==80) { setScene(81); }
+    else if (sceneNumber==86) { setScene(87); }
+    else if (sceneNumber==88) { setScene(89); }
+
     
 } else { console.error('Option 2 button pressed when proceed == false') }
 }

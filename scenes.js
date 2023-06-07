@@ -292,6 +292,29 @@ function setScene(sceneNum) {
     } else if (sceneNum==90) {
         scene(sceneNum, null, null, hall, 
             '["Driving back to East Egg..."]', 'Driving', 'next', null, null,);
-    }       
+    } 
 
+
+
+      else if (sceneNum==120) {
+        scene(sceneNum, gat_s, null, hall, 
+            '["The feeling of dejection and loss of sleep makes you weary and tired..."]', null, 'Open the front door to get some fresh air', 'Get a servant to open some windows and doors for fresh air', null,);
+      } else if (sceneNum==121) {
+        scene(sceneNum, nick, gat_s, hall, 
+            '["Hello Jay..."]', 'Nick', 'Welcome Nick into your home', null, null,);
+      } else if (sceneNum==122) {
+        scene(sceneNum, gat_s, null, hall, 
+            '["You ought to go away"]', 'Nick', 'Consider it', 'Stay', null,);
+      } else if (sceneNum==123) {
+        scene(sceneNum, gat_n, nick, hall, 
+            '["Go away now, Old Sport?"]', 'You', 'next', null, null,);
+      } else if (sceneNum==124) {
+        scene(sceneNum, gat_s, nick, hall, 
+            '["As Nick attempts to convince you to run away, you realize that nothing will ever convince you to leave Daisy behind..."]', null, 'next', null, null,);
+      } else if (sceneNum==125) {
+        scene(sceneNum, gat_h, null, hall, 
+            '[""]', null, 'next', null, null,);
+      }
+    
+      
 }

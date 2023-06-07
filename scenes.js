@@ -275,7 +275,7 @@ function setScene(sceneNum) {
         scene(sceneNum, gat_s, null, hall, 
             '["The world swirls, you feel lightheaded, you are speechless. Yet these emotions and Tom\'s accusations only make you angry. Why did Tom have to be in Daisy\'s life?"]', null, 'next', null, null,55);
     } else if (sceneNum==84) {
-        scene(sceneNum, gat_s, daisy, hall, 
+        scene(sceneNum, gat_s, dai_n, hall, 
             '["These accusations are false Daisy!"]', "You", 'attempt to convince daisy that You are righteous', null, null,45);
     } else if (sceneNum==85) {
         scene(sceneNum, gat_s, null, null, 
@@ -284,13 +284,13 @@ function setScene(sceneNum) {
         scene(sceneNum, gat_s, null, hall, 
             '["Words Stumble out of your mouth, you don\'t even know what you\'re saying. All you know is that you must hold onto Daisy\'s love"]', null, 'Explain more', 'Stop and look at Daisy\'s expression', null,);
     } else if (sceneNum=87) {
-        scene(sceneNum, gat_s, daisy, hall, 
+        scene(sceneNum, gat_s, dai_s, hall, 
             '["Daisy is scared, she does\'nt know what to do..."]', null, 'next', null, null,30);
     } else if (sceneNum==88) {
         scene(sceneNum, tom_n, gat_s, hall, 
             '["Tom insists that you and Daisy go back to East Egg"]', null, 'Leave with Daisy but let Daisy drive', 'Leave with Daisy but you drive', null,);
     } else if (sceneNum==89) {
-        scene(sceneNum, daisy, gat_s, hall, 
+        scene(sceneNum, dai_n, gat_s, hall, 
             '["Let me drive, it\'ll help me calm down."]', null, 'Let Daisy Drive', null, null,25);
     } else if (sceneNum==90) {
         scene(sceneNum, null, null, hall, 
@@ -333,7 +333,7 @@ function setScene(sceneNum) {
             '["Next Day"]', null, 'next', null, null,);
     } else if (sceneNum==120) {
         scene(sceneNum, gat_s, null, hall, 
-            '["The feeling of dejection and loss of sleep makes you weary and tired..."]', null, 'Open the front door to get some fresh air', 'Get a servant to open some windows and doors for fresh air', null,);
+            '["The feeling of dejection and loss of sleep makes you weary and tired..."]', null, 'Open the front door to get some fresh air', 'Get a servant to open some windows and doors for fresh air', null,65);
       } else if (sceneNum==121) {
         scene(sceneNum, nick, gat_s, hall, 
             '["Hello Jay..."]', 'Nick', 'Welcome Nick into your home', null, null,);
@@ -345,11 +345,13 @@ function setScene(sceneNum) {
             '["Go away now, Old Sport?"]', 'You', 'next', null, null,);
       } else if (sceneNum==124) {
         scene(sceneNum, gat_s, nick, hall, 
-            '["As Nick attempts to convince you to run away, you realize that nothing will ever convince you to leave Daisy behind..."]', null, 'next', null, null,);
+            '["As Nick attempts to convince you to run away, you realize that nothing will ever convince you to leave Daisy behind..."]', null, 'Talk to Nick about your first encounter with Daisy', null, null,70);
       } else if (sceneNum==125) {
-        scene(sceneNum, gat_h, null, hall, 
-            '[""]', null, 'next', null, null,);
+        scene(sceneNum, gat_n, null, hall, 
+            '["As you explain Daisy\'s popularity, wealth, and personality, you remember the unforgettable experiences you had with her. Daisy still loves you and you must try to re-capture her heart."]', null, 'Your Gardener approaches you', null, null,75);
+      } else if (sceneNum==126) {
+        scene(sceneNum, placeholder, gat_n, hall, 
+            '["The leaves are falling and could clog up the drain. Should I drain the pool, sir?"]', "Servant", 'Drain the Pool', 'Do not drain the pool', null,);
       }
-    
       
 }

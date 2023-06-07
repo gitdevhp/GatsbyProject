@@ -206,6 +206,7 @@ body {
   height: 25vh;
   text-align: center;
   opacity: 1;
+  display: none;
 }
 
 #indicatorImage {

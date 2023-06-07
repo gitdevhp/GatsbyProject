@@ -12,7 +12,6 @@ function opacity(opacity) {
 function hue(hue) {
     let image = document.getElementById("indicatorImage");
     image.style.filter = `hue-rotate(${hue}deg)`;
-
 }
 
 function updateIndicator(toValue) {
@@ -24,4 +23,9 @@ function updateIndicator(toValue) {
         resize('15')
     }
     console.log('Updated happiness indicator to value ' + toValue)
+}
+
+document.body.onload = function() {
+    document.getElementById('indicatorImage').style.display = 'none';
+    console.log('Hid indicator image from the DOM.')
 }

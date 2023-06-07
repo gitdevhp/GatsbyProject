@@ -240,11 +240,33 @@ function setScene(sceneNum) {
         scene(sceneNum, gat_n, daisy, hall, '["You never loved Tom right?"]', 'You', 'Listen for Daisy\'s response', null, null,);
     } else if (sceneNum==73) {
         scene(sceneNum, gat_h, null, hall, 
-            '["Despite Tom\'s protests and efforts to regain Daisy\'s heart, she turns a cold shoulder toward Tom as you stand beside her."]', null, 'next', null, null,);
+            '["Despite Tom\'s protests and efforts to regain Daisy\'s heart, she turns a cold shoulder toward Tom as you stand beside her."]', null, 'next', null, null,85);
     } else if (sceneNum==74) {
-        scene(sceneNum, gat_h, null, hall, 
-            '[""]', null, 'next', null, null,);
+        scene(sceneNum, tom_n, gat_n, hall, 
+            '["There\'re things between Daisy and me that you\'ll never know, thing that neither of us can forget..."]', 'Tom', 'Attempt to get Tom to give up', 'Get Daisy to tell Tom to give in', null,80);
     } else if (setScene==75) {
-        scene(sceneNum, gat_h, null, hall, '[""]', null, 'next', null, null,);
+        scene(sceneNum, gat_s, null, null, 
+            '["Tom\'s statement reminds you of the time lost between you and Daisy and the Buchanan child..."]', null, 'next', null, null,65);
+    } else if (setScene==76) {
+        scene(sceneNum, gat_s, null, null, 
+            '["Despite Tom\'s connection with Daisy, you have full faith that Daisy still truly loves you..."]', null, 'next', null, null,75);
+    } else if (setScene==77) {
+        scene(sceneNum, gat_n, tom_n, hall, 
+            '["Daisy\'s leaving you."]', 'You', 'Look at Daisy for a response', 'Give Tom a look of Confidence', null,);
+    } else if (setScene==78) {
+        scene(sceneNum, gat_h, null, hall, 
+            '["Daisy Agrees with you, she will not stay with Tom. You have full confidence that Daisy is falling away from Tom and closer to you."]', null, 'next', null, null,85);
+    } else if (setScene==79) {
+        scene(sceneNum, gat_n, tom_n, null, 
+            '["Despite your long awaited dream of getting Daisy to be your\'s, and Tom\'s shaky hold on the situation, Tom suddenly gets a surge of Confidence..."]', null, 'next', null, null,75);
+    } else if (sceneNum==80) {
+        scene(sceneNum, tom_n, gat_n, hall, 
+            '["I found out what your drug stores were."]', 'Tom', 'panic', 'stay calm', null,);
+    } else if (sceneNum==81) {
+        scene(sceneNum, gat_s, tom_n, hall, 
+            '["Suddenly and rapidly, a burst of accusations pour out of Tom\'s mouth claiming that you were dealt illegal alcohol. You lose focus in shock, but the parts you hear are largly correct. You Can\'t beleive it! Who let out the Secrets?"]', null, 'Give an excuse and act Calm', null, null,65);
+    } else if (sceneNum==82) {
+        scene(sceneNum, gat_s, tom_n, hall, 
+            '["Before you are able to push the conversation to a different topic, Tom snaps at you..."]', null, 'next', null, null,);
     }
 }

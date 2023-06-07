@@ -294,8 +294,30 @@ function setScene(sceneNum) {
             '["Let me drive, it\'ll help me calm down."]', null, 'Let Daisy Drive', null, null,25);
     } else if (sceneNum==90) {
         scene(sceneNum, null, null, hall, 
-            '["Driving back to East Egg..."]', 'Driving', 'next', null, null,);
+            '["En Route to East Egg"]', 'Driving', 'next', null, null,);
+    } else if (sceneNum==91) {
+        scene(sceneNum, gat_h, daisy, hall, 
+            '["You lean back in your seat, relaxing as the trip draws on."]', null, 'next', null, null,);
+    } else if (sceneNum==92) {
+        scene(sceneNum, gat_n, dai_n, hall, 
+            '["Suddenly, a distressed woman shoots out of left field, waving her hands frantically."]', null, 'Grab the wheel', 'Let Daisy handle it', null,);
+    } else if (sceneNum==93) {
+        scene(sceneNum, gat_n, dai_s, hall, 
+            '["You rip the steering wheel away from daisy, but find that you are too late to do anything."]', null, 'next', null, null,);
+    } else if (sceneNum==94) {
+        scene(sceneNum, gat_n, dai_s, hall, 
+            '["AHHHH!"]', 'Daisy', 'next', null, null,);
+    } else if (sceneNum==95) {
+        scene(sceneNum, gat_n, dai_s, hall, 
+            '["The car flies straight through the woman, throwing her under the vehicle and splattering blood all over the windshield."]', null, 'next', null, null,);
+    } else if (sceneNum==96) {
+        scene(sceneNum, gat_n, dai_n, hall, 
+            '["In a frenzy, Daisy speeds off at speeds well in excess of the speed limit."]', null, 'Take over the wheel', 'Sit in silence', null,);
+    } else if (sceneNum==97) {
+        scene(sceneNum, gat_n, null, hall, 
+            '["Worried for your life, you pull the emergency brake. Daisy is overcome by emotion and collapses."]', null, 'Take the wheel and drop off daisy', null, null,);
     } 
+
 
 
 

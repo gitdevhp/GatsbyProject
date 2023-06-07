@@ -148,8 +148,9 @@ function setScene(sceneNum) {
     } else if (sceneNum==41) {
         scene(sceneNum, gat_s, null, hall, 
             '["While Tom re-enters the room, the child leaves with the nurse..."]', null, 'Turn toward Daisy', null, null, 35);
-    } else if (sceneNum=9123) {
-        scene(sceneNum, gat_h, null, hall, '["As you turn toward Daisy, Daisy\'s gaze meets yours..."]', null, 'next', null, null, 40);
+    } else if (sceneNum==9123) {
+        scene(sceneNum, gat_h, null, hall, 
+            '["As you turn toward Daisy, Daisy\'s gaze meets yours..."]', null, 'next', null, null, 40);
     } else if (sceneNum==42) {
         scene(sceneNum, gat_n, daisy, hall, 
             '["You always look so cool..."]', 'Daisy', 'Keep looking at Daisy as your love overcomes the shock', 'Attempt to avoid Daisy and Look for Nick', null, 45);

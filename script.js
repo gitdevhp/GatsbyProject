@@ -249,7 +249,6 @@ function option1() {
         else if (sceneNumber==99) { setScene(101); }
         else if (sceneNumber==101) { setScene(102); }
         else if (sceneNumber==102) { setScene(120); }
-
         else if (sceneNumber==120) { setScene(121); }
         else if (sceneNumber==121) { setScene(122); }
         else if (sceneNumber==122) { setScene(123); }

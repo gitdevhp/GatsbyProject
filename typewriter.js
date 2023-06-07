@@ -22,7 +22,7 @@ TxtType.prototype.tick = function () {
     disableButtons(false);
   }
   var that = this;
-  var delta = 50 - Math.random() * 5;
+  var delta = 25 - Math.random() * 5;
 
   if (!this.isDeleting && this.txt === fullTxt) {
     delta = this.period;

@@ -224,8 +224,10 @@ function option1() {
         else if (sceneNumber==78) { setScene(79); }
         else if (sceneNumber==79) { setScene(80); }
         else if (sceneNumber==80) { setScene(82); }
+        else if (sceneNumber==81) { setScene(83); }
         else if (sceneNumber==82) { setScene(81); }
-        
+        else if (sceneNumber==83) { setScene(84); }
+        else if (sceneNumber==84) { setScene(85); }
 
     } else { console.error('Option 1 button pressed when proceed == false') }
 }

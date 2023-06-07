@@ -268,5 +268,14 @@ function setScene(sceneNum) {
     } else if (sceneNum==82) {
         scene(sceneNum, gat_s, tom_n, hall, 
             '["Before you are able to push the conversation to a different topic, Tom snaps at you..."]', null, 'next', null, null,);
+    } else if (sceneNum==83) {
+        scene(sceneNum, gat_s, null, hall, 
+            '["The world swirls, you feel lightheaded, you are speechless. Yet these emotions and Tom\'s accusations only make you angry. Why did Tom have to be in Daisy\'s life?"]', null, 'next', null, null,55);
+    } else if (sceneNum==84) {
+        scene(sceneNum, gat_s, daisy, hall, 
+            '["These accusations are false Daisy!"]', "You", 'attempt to convince daisy that You are righteous', null, null,45);
+    } else if (sceneNum==85) {
+        scene(sceneNum, gat_h, null, hall, 
+            '[""]', null, 'next', null, null,);
     }
 }

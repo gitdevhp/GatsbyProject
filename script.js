@@ -183,14 +183,60 @@ function option1() {
         else if (sceneNumber==38) { setScene(39); }
         else if (sceneNumber==39) { setScene(40); }
         else if (sceneNumber==40) { setScene(41); }
-        else if (sceneNumber==41) { setScene(42); }
+        else if (sceneNumber==41) { setScene(9123); }
+        else if (sceneNumber==9123) { setScene(42); }
         else if (sceneNumber==42) { setScene(43); }
         else if (sceneNumber==43) { setScene(45); }
         else if (sceneNumber==44) { setScene(43); }
         else if (sceneNumber==45) { setScene(46); }
         else if (sceneNumber==46) { setScene(48); }
         else if (sceneNumber==47) { setScene(46); }
-        
+        else if (sceneNumber==48) { setScene(49); }
+        else if (sceneNumber==49) { setScene(50); }
+        else if (sceneNumber==50) { setScene(51); }
+        else if (sceneNumber==51) { setScene(53); }
+        else if (sceneNumber==52) { setScene(51); }
+        else if (sceneNumber==53) { setScene(56); }
+        else if (sceneNumber==54) { setScene(53); }
+        else if (sceneNumber==55) { setScene(53); }
+        else if (sceneNumber==56) { setScene(57); }
+        else if (sceneNumber==57) { setScene(58); }
+        else if (sceneNumber==58) { setScene(60); }
+        else if (sceneNumber==59) { setScene(60); }
+        else if (sceneNumber==60) { setScene(61); }
+        else if (sceneNumber==61) { setScene(62); }
+        else if (sceneNumber==62) { setScene(65); }
+        else if (sceneNumber==63) { setScene(64); }
+        else if (sceneNumber==64) { setScene(61); }
+        else if (sceneNumber==65) { setScene(66); }
+        else if (sceneNumber==66) { setScene(67); }
+        else if (sceneNumber==67) { setScene(68); }
+        else if (sceneNumber==68) { setScene(69); }
+        else if (sceneNumber==69) { setScene(70); }
+        else if (sceneNumber==70) { setScene(71); }
+        else if (sceneNumber==71) { setScene(72); }
+        else if (sceneNumber==72) { setScene(73); }
+        else if (sceneNumber==73) { setScene(74); }
+        else if (sceneNumber==74) { setScene(75); }
+        else if (sceneNumber==75) { setScene(77); }
+        else if (sceneNumber==76) { setScene(77); }
+        else if (sceneNumber==77) { setScene(78); }
+        else if (sceneNumber==78) { setScene(79); }
+        else if (sceneNumber==79) { setScene(80); }
+        else if (sceneNumber==80) { setScene(82); }
+        else if (sceneNumber==81) { setScene(83); }
+        else if (sceneNumber==82) { setScene(81); }
+        else if (sceneNumber==83) { setScene(84); }
+        else if (sceneNumber==84) { setScene(85); }
+        else if (sceneNumber==85) { setScene(86); }
+        else if (sceneNumber==86) { setScene(85); }
+        else if (sceneNumber==87) { setScene(88); }
+        else if (sceneNumber==88) { setScene(90); }
+
+        else if (sceneNumber==120) { setScene(121); }
+        else if (sceneNumber==121) { setScene(122); }
+        else if (sceneNumber==122) { setScene(123); }
+        else if (sceneNumber==123) { setScene(124); }
 
     } else { console.error('Option 1 button pressed when proceed == false') }
 }
@@ -212,7 +258,21 @@ function option2(){
     else if (sceneNumber==36) { setScene(37); }
     else if (sceneNumber==42) { setScene(44); }
     else if (sceneNumber==45) { setScene(47); }
+    else if (sceneNumber==49) { setScene(52); }
+    else if (sceneNumber==51) { setScene(54); }
+    else if (sceneNumber==54) { setScene(55); }
+    else if (sceneNumber==57) { setScene(59); }
+    else if (sceneNumber==60) { setScene(63); }
+    else if (sceneNumber==70) { setScene(72); }
+    else if (sceneNumber==74) { setScene(76); }
+    else if (sceneNumber==77) { setScene(79); }
+    else if (sceneNumber==80) { setScene(81); }
+    else if (sceneNumber==86) { setScene(87); }
+    else if (sceneNumber==88) { setScene(89); }
+    
+    else if (sceneNumber==122) { setScene(124); }
 
+    
 } else { console.error('Option 2 button pressed when proceed == false') }
 }
 
@@ -220,7 +280,9 @@ function option3() {
     console.log('Option 3 button code executing')
     if (proceed==true) {
     if (sceneNumber==8) { setScene(9); }
-    
+    else if (sceneNumber==51) { setScene(55); }
+    else if (sceneNumber==57) { setScene(58); }
+    else if (sceneNumber==60) { setScene(63); }
 } else { console.error('Option 3 button pressed when proceed == false') }
 
 }

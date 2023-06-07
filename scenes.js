@@ -3,9 +3,12 @@ var gat_h = 'image/character/gatsby_happy.png'
 var gat_n = 'image/character/gatsby_neutral.png'
 var gat_s = 'image/character/gatsby_sad.png'
 var tom_n = 'image/character/tom_neutral.png'
+var daisy = 'image/character/daisy_happy.png'
+var dai_n = 'image/character/daisy_neutral.png'
+var dai_s = 'image/character/daisy_sad.png'
+
 var wolf = 'image/character/wolf_temp.png'
-var daisy = 'image/character/daisy_temp.png'
-var nick = 'image/character/nick_temp.png'
+var nick = 'image/character/nick_or_wolf_neutral.png'
 
 
 var hall_old = 'hall.png'

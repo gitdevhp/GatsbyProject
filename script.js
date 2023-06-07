@@ -237,6 +237,18 @@ function option1() {
         else if (sceneNumber==86) { setScene(85); }
         else if (sceneNumber==87) { setScene(88); }
         else if (sceneNumber==88) { setScene(90); }
+        else if (sceneNumber==89) { setScene(90); }
+        else if (sceneNumber==90) { setScene(91); }
+        else if (sceneNumber==91) { setScene(92); }
+        else if (sceneNumber==92) { setScene(93); }
+        else if (sceneNumber==93) { setScene(94); }
+        else if (sceneNumber==94) { setScene(95); }
+        else if (sceneNumber==95) { setScene(96); }
+        else if (sceneNumber==96) { setScene(98); }
+        else if (sceneNumber==98) { setScene(99); }
+        else if (sceneNumber==99) { setScene(101); }
+        else if (sceneNumber==101) { setScene(102); }
+        else if (sceneNumber==102) { setScene(120); }
 
         else if (sceneNumber==120) { setScene(121); }
         else if (sceneNumber==121) { setScene(122); }
@@ -274,7 +286,10 @@ function option2(){
     else if (sceneNumber==80) { setScene(81); }
     else if (sceneNumber==86) { setScene(87); }
     else if (sceneNumber==88) { setScene(89); }
-    
+    else if (sceneNumber==92) { setScene(94); }
+    else if (sceneNumber==96) { setScene(97); }
+    else if (sceneNumber==98) { setScene(100); }
+
     else if (sceneNumber==122) { setScene(124); }
 
     

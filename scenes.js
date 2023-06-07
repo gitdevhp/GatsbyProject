@@ -305,23 +305,33 @@ function setScene(sceneNum) {
         scene(sceneNum, gat_n, dai_s, hall, 
             '["You rip the steering wheel away from daisy, but find that you are too late to do anything."]', null, 'next', null, null,);
     } else if (sceneNum==94) {
-        scene(sceneNum, gat_n, dai_s, hall, 
+        scene(sceneNum, gat_n, dai_s, path, 
             '["AHHHH!"]', 'Daisy', 'next', null, null,);
     } else if (sceneNum==95) {
-        scene(sceneNum, gat_n, dai_s, hall, 
+        scene(sceneNum, gat_n, dai_s, path, 
             '["The car flies straight through the woman, throwing her under the vehicle and splattering blood all over the windshield."]', null, 'next', null, null,);
     } else if (sceneNum==96) {
-        scene(sceneNum, gat_n, dai_n, hall, 
+        scene(sceneNum, gat_n, dai_n, path, 
             '["In a frenzy, Daisy speeds off at speeds well in excess of the speed limit."]', null, 'Take over the wheel', 'Sit in silence', null,);
     } else if (sceneNum==97) {
-        scene(sceneNum, gat_n, null, hall, 
+        scene(sceneNum, gat_n, null, path, 
             '["Worried for your life, you pull the emergency brake. Daisy is overcome by emotion and collapses."]', null, 'Take the wheel and drop off daisy', null, null,);
-    } 
-
-
-
-
-      else if (sceneNum==120) {
+    } else if (sceneNum==98) {
+        scene(sceneNum, gat_n, null, path, 
+            '["You drop off Daisy at the Buchanan Mansion."]', null, 'Wait outside to keep tabs on daisy', 'Go Home', null,);
+    } else if (sceneNum==99) {
+        scene(sceneNum, gat_n, null, path, 
+            '["You watch Daisy through the bushes outside their courtyard, making sure she is safe."]', null, 'next', null, null,);
+    } else if (sceneNum==100) {
+        scene(sceneNum, gat_n, null, path, 
+            '["While driving home, you worry that Tom might come home and find out about what happened today. You decide that it would be best to keep them in check."]', null, 'next', null, null,);
+    } else if (sceneNum==101) {
+        scene(sceneNum, tom_n, daisy_n, hall, 
+            '["You see daisy and Tom eating cold fried chicken and watermelon while listening to music. Neither of them look happy"]', null, 'Go Home and Sleep', null, null,);
+    } else if (sceneNum==102) {
+        scene(sceneNum, null, null, null, 
+            '["Next Day"]', null, 'next', null, null,);
+    } else if (sceneNum==120) {
         scene(sceneNum, gat_s, null, hall, 
             '["The feeling of dejection and loss of sleep makes you weary and tired..."]', null, 'Open the front door to get some fresh air', 'Get a servant to open some windows and doors for fresh air', null,);
       } else if (sceneNum==121) {

@@ -369,9 +369,12 @@ function setScene(sceneNum) {
         scene(sceneNum, gat_h, null, hall, 
             '["You think about Gatsby\'s suggestion, wondering if you\'ve made the correct decision to stay. "]', null, 'next', null, null, 75);
     } else if (sceneNum==132) {
+        document.getElementById('game').style.display='none';
+        document.getElementById('end').style.display='block';
         //GUNSHOT SOUNDS BANG BANG BANG 
         //WAIT FOR 3 SECONDS IDK
         //THEN DO A SAD SCENEWHERE GATBY THINKS IF HE COULDVE DONE ANYTHING DIFFERENT
+        typeText('["What couldve been..."]','endtext');
         // NEXT BUTTON OR OPTION 1 BUTTON THAT GOES TO SCENE 133
     } else if (sceneNum==133) {
         //THE END OR RESTART BUTTON

@@ -53,6 +53,11 @@ function disableButtons(state) {
     }
 }
 
+window.addEventListener('load', function() {
+    document.getElementById('instructions').style.opacity = 0.9;
+});
+
+
 // Generalized Scene function that can be set with parameters to do any scene.
 //num sets
 //char1 char2 sets the character img

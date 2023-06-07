@@ -289,7 +289,7 @@ function setScene(sceneNum) {
             '["Daisy is scared, she does\'nt know what to do..."]', null, 'next', null, null,30);
     } else if (sceneNum==88) {
         scene(sceneNum, tom_n, gat_s, hall, 
-            '["Tom insists that you and Daisy go back to East Egg"]', null, 'Leave with Daisy but let Daisy drive', 'Leave with Daisy but you drive', null,);
+            '["Tom insists that you and Daisy go back to East Egg"]', null, 'Leave with Daisy but let Daisy drive', 'Leave with Daisy but you drive', null,30);
     } else if (sceneNum==89) {
         scene(sceneNum, dai_n, gat_s, hall, 
             '["Let me drive, it\'ll help me calm down."]', null, 'Let Daisy Drive', null, null,25);

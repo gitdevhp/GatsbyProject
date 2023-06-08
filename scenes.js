@@ -196,8 +196,7 @@ function setScene(sceneNum) {
         scene(sceneNum, gat_n, tom_n, hall, 
             '["Why not let her alone old sport? You\'re the one that wanted to come to town."]', 'You', 'Look for a reaction by Tom', null, null,70);
     } else if (sceneNum==57) {
-        scene(sceneNum, gat_n, tom_n, hall, 
-            '["Tom seems to be angered by your comment, he attacks your \"Old Sport\" habit which makes you slightly worried that the accent does\'nt fit in natually with the upper class..."]', null, 'Dont fight with Tom', 'Remark that Daisy loves you more than Tom', 'Sarcastically chuckle at Tom\'s remark',60);
+        scene(sceneNum, gat_n, tom_n, hall, '["Tom seems to be angered by your comment, he attacks your \'Old Sport\' habit which makes you slightly worried that the accent doesn\'t fit in naturally with the upper class..."]', null, 'Dont fight with Tom', 'Remark that Daisy loves you more than Tom', 'Sarcastically chuckle at Tom\'s remark',60);
     } else if (sceneNum==58) {
         scene(sceneNum, daisy, null, hall, 
             '["Before Tom can say anything, Daisy breaks up the fight. You\'re happy that Daisy protected you from Tom"]', null, 'next', null, null,70);

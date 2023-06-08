@@ -375,13 +375,14 @@ function setScene(sceneNum) {
         document.body.style.backgroundColor = "black";
         setTimeout(function(){
             typeText('["What could\'ve been...."]','endtext');
-        }, 2000);
+            setTimeout(function(){
+                setScene(133);
+            }, 1500);
+        }, 1500);
         //GUNSHOT SOUNDS BANG BANG BANG 
         //WAIT FOR 3 SECONDS IDK
         //THEN DO A SAD SCENEWHERE GATBY THINKS IF HE COULDVE DONE ANYTHING DIFFERENT
-        wait(2000);
         // NEXT BUTTON OR OPTION 1 BUTTON THAT GOES TO SCENE 133
-        setScene(133);
     } else if (sceneNum==133) {
         //THE END OR RESTART BUTTON
         document.getElementById('endNex').style.display='block';

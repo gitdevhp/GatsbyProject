@@ -120,7 +120,7 @@ function setScene(sceneNum) {
             '["Make us a cold drink Tom!!"]', 'Daisy', 'next', null, null,85);
     } else if(sceneNum==32) {
         scene(sceneNum, gat_h, tom_n, hall, 
-            '["Tom pauses for a second as he leaves the room, suspicious of Daisy\'s intentions. But does leave."]', null, 'Kiss Daisy on the Mouth', 'Make sure Tom is\'nt Watching', null, 90);
+            '["Tom pauses for a second as he leaves the room, suspicious of Daisy\'s intentions. But does leave."]', null, 'Kiss Daisy', 'Make sure Tom isn\'t Watching', null, 90);
     } else if(sceneNum==33) {
         scene(sceneNum, gat_h, daisy, hall, 
             '["You are in awe as you tour the house! This isn\'t just some normal house, this is Daisy\'s home and you can\'t beleive you\'re standing in it!"]', null, 'next', null, null, 80);

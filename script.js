@@ -264,6 +264,11 @@ function option1() {
         else if (sceneNumber==129) { setScene(130); }
         else if (sceneNumber==130) { setScene(132); }
         else if (sceneNumber==131) { setScene(130); }
+        else if (sceneNumber==133) { 
+            document.getElementById('end').style.display='none';
+            document.getElementById('start').style.display='block';
+        }
+        
 
     } else { console.error('Option 1 button pressed when proceed == false') }
 }

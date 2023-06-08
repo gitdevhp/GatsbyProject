@@ -377,6 +377,7 @@ function setScene(sceneNum) {
         // NEXT BUTTON OR OPTION 1 BUTTON THAT GOES TO SCENE 133
     } else if (sceneNum==133) {
         //THE END OR RESTART BUTTON
+        document.getElementById('endNex').style.display='block';
     }
       
 }

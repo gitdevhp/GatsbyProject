@@ -123,7 +123,7 @@ function setScene(sceneNum) {
             '["Tom pauses for a second as he leaves the room, suspicious of Daisy\'s intentions. But does leave."]', null, 'Kiss Daisy', 'Make sure Tom isn\'t Watching', null, 90);
     } else if(sceneNum==33) {
         scene(sceneNum, gat_h, daisy, hall, 
-            '["You are in awe as you tour the house! This isn\'t just some normal house, this is Daisy\'s home and you can\'t beleive you\'re standing in it!"]', null, 'next', null, null, 80);
+            '["You are in awe as you tour the house! This isn\'t just some normal house, this is Daisy\'s home and you can\'t believe you\'re standing in it!"]', null, 'next', null, null, 80);
     } else if (sceneNum==34) {
         scene(sceneNum, gat_h, daisy, hall, 
             '["As you and Daisy Kiss, the world seems to swirl as Happiness Encircles you"]', null, 'You hear a voice of a Small Child', null, null, 100);

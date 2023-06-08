@@ -386,8 +386,5 @@ function setScene(sceneNum) {
         //WAIT FOR 3 SECONDS IDK
         //THEN DO A SAD SCENEWHERE GATBY THINKS IF HE COULDVE DONE ANYTHING DIFFERENT
         // NEXT BUTTON OR OPTION 1 BUTTON THAT GOES TO SCENE 133
-    } else if (sceneNum==133) {
-        //THE END OR RESTART BUTTON
-    }
-      
+    }     
 }

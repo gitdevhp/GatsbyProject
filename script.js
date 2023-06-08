@@ -144,6 +144,10 @@ function scene(num, char1, char2, background, text, speaker, option1, option2, o
     }
 }
 
+function ENDBUTTONEXEC(){
+    document.getElementById('end').style.display='none';
+    document.getElementById('start').style.display='block';
+}
 //for temp solution to transition scenes
 function option1() {
     console.log('Proceed Value: ' + proceed);
@@ -264,10 +268,7 @@ function option1() {
         else if (sceneNumber==129) { setScene(130); }
         else if (sceneNumber==130) { setScene(132); }
         else if (sceneNumber==131) { setScene(130); }
-        else if (sceneNumber==132) { 
-            document.getElementById('end').style.display='none';
-            document.getElementById('start').style.display='block';
-        }
+        else if (sceneNumber==132) {}
         
 
     } else { console.error('Option 1 button pressed when proceed == false') }

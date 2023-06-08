@@ -33,6 +33,7 @@ function startGame() {
     document.getElementById('game').style.display = 'block';
     document.getElementById("indicator").style.display = 'block';
     document.getElementById("indicatorImage").style.display = 'block';
+    updateIndicator('80')
     setScene(1);
 }
 

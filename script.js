@@ -31,7 +31,8 @@ function startGame() {
     slugify("game=gaming")
     document.getElementById("lamp").style.top = "-10vh";
     document.getElementById('game').style.display = 'block';
-    document.getElementById("indicatorImage").display = 'block';
+    document.getElementById("indicator").style.display = 'block';
+    document.getElementById("indicatorImage").style.display = 'block';
     setScene(1);
 }
 

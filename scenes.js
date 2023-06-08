@@ -377,7 +377,7 @@ function setScene(sceneNum) {
         //GUNSHOT SOUNDS BANG BANG BANG 
         //WAIT FOR 3 SECONDS IDK
         //THEN DO A SAD SCENEWHERE GATBY THINKS IF HE COULDVE DONE ANYTHING DIFFERENT
-        typeText('["What couldve been..."]','endtext');
+        typeText('["What could\'ve been...."]','endtext');
         wait(2000);
         // NEXT BUTTON OR OPTION 1 BUTTON THAT GOES TO SCENE 133
         setScene(133);

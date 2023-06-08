@@ -132,7 +132,7 @@ function setScene(sceneNum) {
             '["As you go check to see if Tom really left, out of nowhere, Daisy Grabs you and Kisses you on the mouth"]', null, 'Be Happy', null, null, 90);
     } else if (sceneNum==36) {
         scene(sceneNum, gat_s, placeholder, hall, 
-            '["Reality suddenly hits you like a Brick, the child that appeared before you was Daisy\'s and Tom\'s child."]', null, 'Look at the Child in shock', 'Turn to Daisy', null, 65);
+            '["Reality suddenly hits you like a Brick, the child that appeared before you was Daisy and Tom\'s child."]', null, 'Look at the Child in shock', 'Turn to Daisy', null, 65);
     } else if (sceneNum==37) {
         scene(sceneNum, gat_s, null, hall, 
             '["Daisy is too busy fawning over the child to notice you"]', null, 'Look at the Child', null, null, 50);

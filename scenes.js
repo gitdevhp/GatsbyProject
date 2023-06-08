@@ -144,7 +144,7 @@ function setScene(sceneNum) {
             '["Where\'s Daddy?"]', 'Child', 'Realize that Daisy and Tom could\'ve truly loved each other', null, null, 30);
     } else if (sceneNum==40) {
         scene(sceneNum, daisy, gat_s, hall, 
-            '["She does\'nt look like her father..."]', 'Daisy', 'Space Out in Shock', null, null, 35);
+            '["She doesn\'t look like her father..."]', 'Daisy', 'Space Out in Shock', null, null, 35);
     } else if (sceneNum==41) {
         scene(sceneNum, gat_s, null, hall, 
             '["While Tom re-enters the room, the child leaves with the nurse..."]', null, 'Turn toward Daisy', null, null, 35);
@@ -232,7 +232,7 @@ function setScene(sceneNum) {
             '["Tom urges you to tell him what you wanted to say. Your inner desire for Daisy to be your\'s takes over and you cant help it but to give into Tom\'s pressure."]', null, 'Tell him', null, null,);
     } else if (sceneNum==69) {
         scene(sceneNum, gat_h, null, hall, 
-            '["Your wife does\'nt love you, She\'s never loved you. She loves me!"]', null, 'next', null, null,75);
+            '["Your wife doesn\'t love you, She\'s never loved you. She loves me!"]', null, 'next', null, null,75);
     } else if (sceneNum==70) {
         scene(sceneNum, gat_h, tom_n, hall, 
             '["You\'ve finally let out your inner feelings. Tom seemes to be shocked, he beleives that you are lying and attempts to call out your bluff."]', null, 'Look at Daisy\'s reaction', 'Continue to argue with Tom', null,);

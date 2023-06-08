@@ -370,7 +370,7 @@ function setScene(sceneNum) {
     } else if (sceneNum==132) {
         document.getElementById('game').style.display='none';
         document.getElementById('end').style.display='block';
-        document.getElementById('lamp').style.opacity='0';
+        document.getElementById('indicatorImage').style.opacity='0';
         document.body.style.backgroundImage = 'none';
         document.body.style.backgroundColor = "black";
         wait(2000);

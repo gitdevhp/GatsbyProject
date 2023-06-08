@@ -264,7 +264,7 @@ function option1() {
         else if (sceneNumber==129) { setScene(130); }
         else if (sceneNumber==130) { setScene(132); }
         else if (sceneNumber==131) { setScene(130); }
-        else if (sceneNumber==133) { 
+        else if (sceneNumber==132) { 
             document.getElementById('end').style.display='none';
             document.getElementById('start').style.display='block';
         }

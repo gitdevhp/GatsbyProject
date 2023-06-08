@@ -378,7 +378,7 @@ function setScene(sceneNum) {
             setTimeout(function(){
                 typeText('["What could\'ve been, between you and Daisy..."]','endtext');
             setTimeout(function(){
-                setScene(133);
+                document.getElementById('ENDBUT').style.display='block';
             }, 1500);
         }, 2500);
         }, 2500);
@@ -388,7 +388,6 @@ function setScene(sceneNum) {
         // NEXT BUTTON OR OPTION 1 BUTTON THAT GOES TO SCENE 133
     } else if (sceneNum==133) {
         //THE END OR RESTART BUTTON
-        document.getElementById('ENDBUT').style.display='block';
     }
       
 }

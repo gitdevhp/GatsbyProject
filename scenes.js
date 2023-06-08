@@ -376,7 +376,7 @@ function setScene(sceneNum) {
         setTimeout(function(){
             typeText('["You\'ve been shot, but by who?"]','endtext');
             setTimeout(function(){
-                typeText('["What could\'ve been, between you and Daisy..."]');
+                typeText('["What could\'ve been, between you and Daisy..."]','endtext');
             setTimeout(function(){
                 setScene(133);
             }, 1500);

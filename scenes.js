@@ -374,10 +374,13 @@ function setScene(sceneNum) {
         document.body.style.backgroundImage = 'none';
         document.body.style.backgroundColor = "black";
         setTimeout(function(){
-            typeText('["You\'ve been shot, but by who? What could\'ve been, between you and Daisy..."]','endtext');
+            typeText('["You\'ve been shot, but by who?"]','endtext');
+            setTimeout(function(){
+                typeText('["What could\'ve been, between you and Daisy..."]');
             setTimeout(function(){
                 setScene(133);
             }, 1500);
+        }, 2500);
         }, 2500);
         //GUNSHOT SOUNDS BANG BANG BANG 
         //WAIT FOR 3 SECONDS IDK

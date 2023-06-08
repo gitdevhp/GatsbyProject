@@ -370,6 +370,10 @@ function setScene(sceneNum) {
     } else if (sceneNum==132) {
         document.getElementById('game').style.display='none';
         document.getElementById('end').style.display='block';
+        document.getElementById('lamp').style.opacity='0';
+        document.body.style.backgroundImage = 'none';
+        document.body.style.backgroundColor = "black";
+        wait(2000);
         //GUNSHOT SOUNDS BANG BANG BANG 
         //WAIT FOR 3 SECONDS IDK
         //THEN DO A SAD SCENEWHERE GATBY THINKS IF HE COULDVE DONE ANYTHING DIFFERENT

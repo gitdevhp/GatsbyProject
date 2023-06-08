@@ -373,6 +373,7 @@ function setScene(sceneNum) {
         document.getElementById('indicatorImage').style.opacity='0';
         document.body.style.backgroundImage = 'none';
         document.body.style.backgroundColor = "black";
+        document.getElementById('gunshot').play();
         setTimeout(function(){
             typeText('["You\'ve been shot, but by who?"]','endtext');
             setTimeout(function(){

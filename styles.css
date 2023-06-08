@@ -57,6 +57,7 @@ button:hover{
 
 #endtext{
   font-size: 32px;
+  vertical-align: bottom;
 }
 
 .option {

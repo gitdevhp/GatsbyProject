@@ -14,5 +14,6 @@ Visit [https://gatsby-project-nine.vercel.app/](https://gatsby-project-nine.verc
 
 ## Screenshots
 
+![image](https://github.com/gitdevhp/GatsbyProject/assets/61996958/d5fc048b-44c8-44a5-b65c-57a705ba9638)
+![image](https://github.com/gitdevhp/GatsbyProject/assets/61996958/fda75e37-08d3-4331-ba4c-04bbf164e531)
 
-<script async defer src="https://buttons.github.io/buttons.js"></script>

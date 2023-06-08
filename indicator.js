@@ -15,6 +15,8 @@ function hue(hue) {
 }
 
 function updateIndicator(toValue) {
+    document.getElementById("indicator").style.display = 'block';
+    document.getElementById("indicatorImage").style.display = 'block';
     opacity((toValue * 0.006 + 0.2).toString())
     hue((toValue * 0.5 - 15))
     if (toValue > 50) {

@@ -297,6 +297,8 @@ function option2(){
     else if (sceneNumber==96) { setScene(97); }
     else if (sceneNumber==98) { setScene(100); }
 
+    else if (sceneNumber==120) { setScene(121); }
+
     else if (sceneNumber==122) { setScene(124); }
     else if (sceneNumber==126) { setScene(127); }
     else if (sceneNumber==129) { setScene(131); }

@@ -179,7 +179,7 @@ function setScene(sceneNum) {
             '["As you open the window, you hear Daisy complain about the heat"]', null, 'next', null, null,);
     } else if (sceneNum==51) {
         scene(sceneNum, tom_n, daisy, hall, 
-            '["The thing to do is to forget about the heat. You make it ten times worse by crabbing about it!"]', 'Tom', 'Defend Daisy', 'Look at Daisy\'s reaction', 'Aggress Tom',);
+            '["The thing to do is to forget about the heat. You make it ten times worse by crabbing about it!"]', 'Tom', 'Defend Daisy', 'Wait to see Daisy\'s reaction', 'Verbally attack Tom',);
     } else if (sceneNum==52) {
         scene(sceneNum, daisy, null, hall, 
             '["You notice Daisy unconfortably rush in front of the hotel mirror to fix her hair in the hot city heat. Tom seems to get irritated as Daisy talks about the heat."]', null, 'next', null, null,);
@@ -220,7 +220,7 @@ function setScene(sceneNum) {
         scene(sceneNum, tom_n, null, hall, 
             '["Tom relentlessly asks you for a specific answer, you have no choice but to tell the truth to avoid suspicion"]', null, 'Tell the truth', null, null,);
     } else if (sceneNum==65) {
-        scene(sceneNum, gat_h, null, hall, 
+        scene(sceneNum, gat_h, daisy, hall, 
             '["Tom seems to have run out of ideas to expose you! But he suddenly reveals his suspicion about the relationship between you and Daisy..."]', null, 'next', null, null,);
     } else if (sceneNum==66) {
         scene(sceneNum, tom_n, gat_n, hall, 
@@ -327,7 +327,7 @@ function setScene(sceneNum) {
         scene(sceneNum, gat_n, null, path, 
             '["While driving home, you worry that Tom might come home and find out about what happened today. You decide that it would be best to keep them in check."]', null, 'next', null, null,);
     } else if (sceneNum==101) {
-        scene(sceneNum, tom_n, daisy_n, hall, 
+        scene(sceneNum, tom_n, dai_n, hall, 
             '["You see daisy and Tom eating cold fried chicken and watermelon while listening to music. Neither of them look happy"]', null, 'Go Home and Sleep', null, null,);
     } else if (sceneNum==102) {
         scene(sceneNum, null, null, null, 

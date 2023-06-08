@@ -55,6 +55,10 @@ button:hover{
   display: inline-block;
 }
 
+#endtext{
+  font-size: 32px;
+}
+
 .option {
   height: 8vh;
   width: 31.3vw;

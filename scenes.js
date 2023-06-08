@@ -363,7 +363,7 @@ function setScene(sceneNum) {
             '["As you lay out ontop of a matress on the pool you realize how beautiful the falling leaves were"]', null, 'Think about Daisy', 'Rethink Nick\'s suggestion to run away', null, 70);
     } else if (sceneNum==130) {
         scene(sceneNum, gat_h, null, hall, 
-            '["You remember how nice Daisy was to you and how she used to love you during the war... No matter what, tou beleive Daisy will one day come back to you"]', null, 'Call for your servant', 'Take a dip into the pool', 'Think more about Daisy', 80);
+            '["You remember how nice Daisy was to you and how she used to love you during the war... No matter what, you beleive Daisy will one day come back to you"]', null, 'Call for your servant', 'Take a dip into the pool', 'Think more about Daisy', 80);
     } else if (sceneNum==131) {
         scene(sceneNum, gat_h, null, hall, 
             '["You think about Gatsby\'s suggestion, wondering if you\'ve made the correct decision to stay. "]', null, 'next', null, null, 75);
